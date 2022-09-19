@@ -4293,11 +4293,11 @@ btn-half {cursor: pointer;	z-index: 0;	display: inline-block;	position: relative
 @media only screen and (max-width: 640px){
 .sx-separator-outer.separator-left{text-align:left;}
 .sx-separator-outer.separator-right{text-align:left;}
-.sx-separator-outer.separator-center{text-align:left;}
+.sx-separator-outer.separator-center{text-align:center;}
 }
 
 @media only screen and (max-width: 540px){
-.sx-separator-outer.separator-center .sep-line-one{padding:20px 50px 14px 50px; letter-spacing:inherit;}
+.sx-separator-outer.separator-center .sep-line-one{padding:20px 70px 14px 70px; letter-spacing:inherit;}
 }
 
 /*-------------------------------------
