@@ -81,8 +81,25 @@
                                 <!-- end home menu item -->
 
                                 <!-- start about menu item -->
-                                <li>
-                                    <li><a href="#about" title="About" class="inner-link">About</a>
+                                <li class="dropdown simple-dropdown"><a href="#">About</a><i class="fas fa-angle-down dropdown-toggle" data-bs-toggle="dropdown" aria-hidden="true"></i>
+                                    <!-- start sub menu -->
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li>
+                                            <a href="#leadership" title="Leadership" class="inner-link">Leadership</a>
+                                        </li>
+                                        <li>
+                                            <a href="#beliefs" title="Beliefs" class="inner-link">Our Beliefs</a>
+                                        </li>
+
+                                        <!-- <li class="dropdown"><a class="dropdown-toggle" data-bs-toggle="dropdown" href="#">Contact <i class="fas fa-angle-right"></i></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="contact-us-simple.html">Contact simple</a></li>
+                                                <li><a href="contact-us-classic.html">Contact classic</a></li>
+                                                <li><a href="contact-us-classic-02.html">Contact classic – style 02</a></li>
+                                                <li><a href="contact-us-modern.html">Contact modern</a></li>
+                                            </ul>
+                                        </li> -->
+                                    </ul>
                                 </li>
                                 <!-- end about menu item -->
 
@@ -991,7 +1008,7 @@
         <section class="wow animate__fadeIn">
 
             <div class="section-full p-t80 p-b50 mobile-page-padding">
-                <div class="container">
+                <div class="container" id="leadership">
                    
                     <!-- TITLE START -->
                     <div class="section-head">
@@ -1010,7 +1027,7 @@
                             <div class="col-lg-4 col-md-6 col-sm-12 m-b30">
                                 <div class="our-team-3">
                                     <div class="our-team-info ">
-                                        <img src="./images/aaron-bagwell/aaron-sample-portrait.JPG" alt=""/>
+                                        <img src="./images/aaron-bagwell/aaron-portrait.jpg" alt=""/>
                                         <div class="our-team-content">
                                             <h4 class="sx-team-name"><a href="https://expecthope.com/aaron-bagwell/" target="_blank">Aaron Bagwell </a></h4>
                                             <span class="sx-team-position text-white">Lead Pastor</span>
@@ -1023,13 +1040,9 @@
                                         </div>			
                                     </div>
                                     <div class="post-details padding-20px-all md-padding-20px-all">
-                                        <a href="blog-post-layout-01.html" class="alt-font post-title text-medium text-extra-dark-gray w-100 d-block lg-w-100 margin-15px-bottom">I find modernist design, but it so much faster!</a>
-                                        <a href="https://www.facebook.com/" title="Facebook" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy...</p>
+                                        <h5 style="margin: 0 0 15px;">Founder & Director</h5>
                                         <div class="separator-line-horrizontal-full bg-medium-gray margin-20px-tb"></div>
-                                        <div class="author">
-                                            <span class="text-medium-gray text-uppercase text-extra-small d-xl-inline-block d-block md-margin-10px-top">by <a href="blog-grid.html" class="text-medium-gray">Jay Benjamin</a>&nbsp;&nbsp;|&nbsp;&nbsp;20 August 2020</span>
-                                        </div>
+                                        <p>Aaron is a Founder and Director of Expect Hope who, alongside his wife Teri, pioneered the vision of Expect Hope. Aaron has an expert background of over 15 years in financial management and organizational leadership. When he's not traveling the world, Aaron can be found watching's his kid's sports games or writing and performing music.</p>
                                     </div>
                                 </div>
                             </div>
@@ -1037,7 +1050,7 @@
                             <div class="col-lg-4 col-md-6 col-sm-12 m-b30">
                                 <div class="our-team-3">
                                     <div class="our-team-info ">
-                                        <img src="./images/teri-bagwell/teri-huggin-children-cropped.jpg" alt=""/>
+                                        <img src="./images/teri-bagwell/teri-portrait.jpg" alt=""/>
                                         <div class="our-team-content">
                                             <h4 class="sx-team-name"><a href="https://expecthope.com/teri-bagwell/" target="_blank">Teri Bagwell</a></h4>
                                             <span class="sx-team-position text-white">Lead Pastor</span>
@@ -1050,17 +1063,14 @@
                                         </div>
                                     </div>
                                     <div class="post-details padding-20px-all md-padding-20px-all">
-                                        <a href="blog-post-layout-01.html" class="alt-font post-title text-medium text-extra-dark-gray w-100 d-block lg-w-100 margin-15px-bottom">I find modernist design, but it so much faster!</a>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy...</p>
+                                        <h5 style="margin: 0 0 15px;">Founder & Director</h5>
                                         <div class="separator-line-horrizontal-full bg-medium-gray margin-20px-tb"></div>
-                                        <div class="author">
-                                            <span class="text-medium-gray text-uppercase text-extra-small d-xl-inline-block d-block md-margin-10px-top">by <a href="blog-grid.html" class="text-medium-gray">Jay Benjamin</a>&nbsp;&nbsp;|&nbsp;&nbsp;20 August 2020</span>
-                                        </div>
+                                        <p>Teri is a Founder and Director of Expect Hope. Teri's knowledge and experience in childhood care and education has laid the foundation of our child sponsorship program. Between ensuring the smooth operation of all of our childcare facilities worldwide, Teri enjoys spreading encouraging messages through her Facebook Page and spending time with her children!</p>
                                     </div>			
                                 </div>                        	
                             </div>
                             
-                            <div class="col-lg-4 col-md-6 col-sm-12 m-b30">
+                            <!-- <div class="col-lg-4 col-md-6 col-sm-12 m-b30">
                                 <div class="our-team-3">
                                     <div class="our-team-info ">
                                         <img src="./images/aaron-bagwell/aaron-sample-portrait.JPG" alt=""/>
@@ -1084,7 +1094,7 @@
                                         </div>
                                     </div>			
                                 </div>                          	
-                            </div>
+                            </div> -->
                                                                                             
                         </div>
                     </div>
