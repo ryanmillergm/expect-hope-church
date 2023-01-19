@@ -119,7 +119,8 @@ h6 {font-size:25px; line-height:30px}
 .text-medium {font-size:16px; line-height:23px}
 .text-large {font-size:18px; line-height:26px}
 .text-extra-large {font-size: 20px; line-height:26px}
-.text-xxl {font-size: 30px; line-height:44px}
+.text-xxl {font-size: 26px; line-height:40px}
+.text-xxxl {font-size: 30px; line-height:44px}
 .title-large {font-size: 100px; line-height:95px}
 .title-extra-large {font-size: 130px; line-height:120px}
 
@@ -2736,8 +2737,10 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
 .page-title-medium h1 {font-size: 32px; line-height: 37px}
 .page-title-large h1 {font-size: 46px; line-height: 49px}
 .page-title-extra-large h1 {font-size: 55px; line-height: 50px}
-.page-title-xxl h1 {font-size: 125px; line-height: 120px}
-.title-xxl h5 {font-size: 75px; line-height: 80px}
+.page-title-xxxl h1 {font-size: 125px; line-height: 120px}
+.title-xxl h5 {font-size: 65px; line-height: 70px}
+.title-xxxl h5 {font-size: 75px; line-height: 80px}
+.kids-ministry-title {font-size: 45px; line-height: 60px}
 
 /* breadcrumb */
 .breadcrumb {background: transparent; border-radius: 0; padding-top: 0; padding-bottom: 0; margin: 0;}

@@ -1,3 +1,7 @@
+@media (min-width: 2400px) {
+    .title-xxl h5 {font-size: 75px; line-height: 80px}
+}
+
 @media (min-width: 992px) {
     .feature-box-14 > div:nth-child(even) { border-bottom: 0}
     .feature-box-14 > div:nth-child(odd) { border-bottom: 0}
@@ -69,7 +73,8 @@
 }
 
 @media (max-width: 1600px) {
-    .text-xxl {font-size: 24px; line-height:34px}
+    .text-xxl {font-size: 22px; line-height:32px}
+    .text-xxxl {font-size: 24px; line-height:34px}
 
     /* grid */
     .grid.xl-grid-6col li { width: 16.67%; }
@@ -1360,8 +1365,9 @@
     h5 {font-size:27px; line-height:32px}
     h6 {font-size:22px; line-height:27px}
 
-    .page-title-xxl h1 {font-size: 85px; line-height: 70px}
-    .title-xxl h5 {font-size: 55px; line-height: 50px}
+    .page-title-xxxl h1 {font-size: 85px; line-height: 70px}
+    .title-xxl h5 {font-size: 45px; line-height: 44px}
+    .title-xxxl h5 {font-size: 55px; line-height: 50px}
 
     /* image position*/ 
     .lg-background-image-left { background-position: left;}
@@ -2657,7 +2663,8 @@
     /* font size */
     .title-large { font-size: 85px; line-height: 85px;}
     .text-extra-large { font-size: 18px; line-height: 24px;}
-    .text-xxl {font-size: 20px; line-height:30px}
+    .text-xxl {font-size: 18px; line-height:28px}
+    .text-xxxl {font-size: 20px; line-height:30px}
     .percent {line-height: 125px;}
 
     /* mega menu */
@@ -5584,11 +5591,12 @@
 
     .page-title-large h1 {font-size: 35px; line-height: 35px;}
     .page-title-extra-large h1 {font-size: 55px; line-height: 35px;}
-    .page-title-xxl h1 {font-size: 55px; line-height: 70px}
+    .page-title-xxxl h1 {font-size: 55px; line-height: 70px}
     .page-title-medium h1 { font-size: 25px; line-height: 30px;}
     .title-large {font-size: 38px; line-height:44px}
     .title-extra-large {font-size: 35px; line-height:40px}
-    .title-xxl h5 {font-size: 45px; line-height: 50px}
+    .title-xxl h5 {font-size: 40px; line-height: 46px}
+    .title-xxxl h5 {font-size: 45px; line-height: 50px}
 
     /* position */
     .sm-letter-spacing-0 {letter-spacing: 0;}
