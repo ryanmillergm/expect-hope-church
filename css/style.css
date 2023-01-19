@@ -91,7 +91,10 @@ header [class^="container-"] [class^="col-"], header [class^="container-"] [clas
 }
 
 /* base color variable*/
-:root {--base-color: #ff214f;}
+:root {
+    --base-color: #ff214f;
+    --blue: #3379be;
+}
 
 /* ===================================
     03. Typography
@@ -116,6 +119,7 @@ h6 {font-size:25px; line-height:30px}
 .text-medium {font-size:16px; line-height:23px}
 .text-large {font-size:18px; line-height:26px}
 .text-extra-large {font-size: 20px; line-height:26px}
+.text-xxl {font-size: 30px; line-height:44px}
 .title-large {font-size: 100px; line-height:95px}
 .title-extra-large {font-size: 130px; line-height:120px}
 
@@ -279,6 +283,7 @@ a.text-very-light-gray-hover:hover {color:#ededed !important;}
 .bg-medium-light-gray {background-color:#ededed}
 .bg-light-gray {background-color:#f7f7f7}
 .bg-very-light-gray {background-color:#fafafa}
+.bg-blue {background-color: var(--blue);}
 .bg-deep-pink {background-color: var(--base-color);}
 .bg-transparent-white {background-color: rgba(255,255,255,0.3); background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 37%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%); background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,0)), color-stop(37%, rgba(255,255,255,0)), color-stop(96%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1))); background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 37%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%); background: -o-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 37%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%); background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 37%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%); background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 37%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 );}
 .bg-transparent-black {background-color: rgba(0,0,0,0); background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 37%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%); background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,0)), color-stop(37%, rgba(0,0,0,0)), color-stop(96%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,1))); background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 37%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%); background: -o-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 37%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%); background: -ms-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 37%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%); background: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 37%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1 );}
@@ -2731,6 +2736,8 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
 .page-title-medium h1 {font-size: 32px; line-height: 37px}
 .page-title-large h1 {font-size: 46px; line-height: 49px}
 .page-title-extra-large h1 {font-size: 55px; line-height: 50px}
+.page-title-xxl h1 {font-size: 125px; line-height: 120px}
+.title-xxl h5 {font-size: 75px; line-height: 80px}
 
 /* breadcrumb */
 .breadcrumb {background: transparent; border-radius: 0; padding-top: 0; padding-bottom: 0; margin: 0;}
