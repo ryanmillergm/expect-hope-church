@@ -1352,6 +1352,10 @@
     .container, .container-lg, .container-md, .container-sm, .container-xl { max-width: 1170px; }
 }
 
+@media (max-width: 1999px) {
+    .title-xxl h5 {font-size: 65px; line-height: 60px}
+}
+
 @media (max-width: 1199px) {
     .panel-group * { transition-timing-function: none; -moz-transition-timing-function: none; -webkit-transition-timing-function: none; -o-transition-timing-function: none; transition-duration: 0s; -ms-transition-timing-function: none; -moz-transition-duration: 0s; -webkit-transition-duration: 0s; -o-transition-duration: 0s; }
     section {padding: 90px 0}
@@ -2663,6 +2667,7 @@
     /* font size */
     .title-large { font-size: 85px; line-height: 85px;}
     .text-extra-large { font-size: 18px; line-height: 24px;}
+    .text-xl {font-size: 18px; line-height:30px}
     .text-xxl {font-size: 18px; line-height:28px}
     .text-xxxl {font-size: 20px; line-height:30px}
     .percent {line-height: 125px;}

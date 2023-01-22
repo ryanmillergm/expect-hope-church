@@ -19,6 +19,7 @@
     background-clip: text;
     -webkit-background-clip: text;
 }
+
 .logo-kids-hope {
     width: 200px;
 }
@@ -29,6 +30,17 @@
 }
 .youtube-icon:hover {
     color:#FF0000;
+}
+
+@media only screen and (max-width:991px){
+	.inverse-dark {
+        background-color: #000 !important;
+        color: #ededed !important;
+    }
+    .inverse-light {
+        background-color: #fff !important;
+        color: #232323 !important;
+    }
 }
 
 @media only screen and (max-width:767px){
