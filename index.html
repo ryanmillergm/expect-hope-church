@@ -48,12 +48,9 @@
         <!-- scripts -->
         <script src="https://js.churchcenter.com/modal/v1"></script>
     </head>
-    <body>
+    <body onload="loadLatestVideo()">
         <!-- start header -->
         <header id="home">
-
-
-            
             <!-- 
                 ****************
                 start navigation 
@@ -391,12 +388,13 @@
             </div>
         </section>
         <!-- end feature section -->
+
         <!-- start video section -->
         <section class="p-0 wow animate__fadeIn" id="youtube">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12 col-xl-7 col-lg-6 cover-background md-h-500px sm-h-400px overflow-visible wow animate__fadeInLeft" style="background-image:url('https://img.youtube.com/vi/HKkBv25Kkfw/maxresdefault.jpg');">
-                        <a class="popup-youtube icon-play-style-2 absolute-middle-center" href="https://www.youtube.com/watch?v=HKkBv25Kkfw">
+                    <div class="col-12 col-xl-7 col-lg-6 cover-background md-h-500px sm-h-400px overflow-visible wow animate__fadeInLeft latestVideoEmbed" id="youtube-image" style="background-image:url('https://img.youtube.com/vi/HKkBv25Kkfw/maxresdefault.jpg');">
+                        <a class="popup-youtube icon-play-style-2 absolute-middle-center" id="youtube-modal-video" href="https://www.youtube.com/watch?v=HKkBv25Kkfw">
                             <span>
                                 <span class="video-icon bg-gradient-royal-blue box-shadow-large"><i class="fa fa-play text-white-2 margin-5px-left" aria-hidden="true"></i></span>
                             </span>
@@ -1199,6 +1197,9 @@
         <script type="text/javascript" src="js/theme-vendors.min.js"></script>
         <!-- <script type="text/javascript" src="js/custom.js"></script> -->
         <!-- <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script> -->
+
+        <!-- youtube -->
+        <script src="js/youtube.js"></script>
 
         <!-- setting -->
         <script type="text/javascript" src="js/main.js"></script>
