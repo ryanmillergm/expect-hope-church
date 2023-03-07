@@ -720,6 +720,7 @@ textarea.input-bg {background-color: #f7f7f7; border-radius: 4px; border: 1px so
 .margin-auto {margin: 0 auto !important;}
 
 /* margin top */
+.margin-auto-top {margin-top:auto}
 .margin-half-top {margin-top:.5%}
 .margin-one-top {margin-top:1%}
 .margin-one-half-top {margin-top:1.5%}
