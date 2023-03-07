@@ -48,12 +48,9 @@
         <!-- scripts -->
         <script src="https://js.churchcenter.com/modal/v1"></script>
     </head>
-    <body>
+    <body onload="loadLatestVideo()">
         <!-- start header -->
         <header id="home">
-
-
-            
             <!-- 
                 ****************
                 start navigation 
@@ -64,8 +61,8 @@
                     <!-- start logo -->
                     <div class="col-auto col-lg-2 ps-0">
                         <a href="index.html" title="Pofo" class="logo">
-                            <img src="./images/logos/expect-hope-logo.png" data-at2x="./images/logos/expect-hope-logo.png" class="logo-dark" alt="Pofo">
-                            <img src="./images/logos/expect-hope-logo.png" data-at2x="./images/logos/expect-hope-logo.png" alt="Pofo" class="logo-light default"></a>
+                            <img src="./images/logos/expect-hope-church-logo-sm.png" data-at2x="./images/logos/expect-hope-church-logo-sm.png" class="logo-dark" alt="Pofo">
+                            <img src="./images/logos/expect-hope-church-logo-sm.png" data-at2x="./images/logos/expect-hope-church-logo-sm.png" alt="Pofo" class="logo-light default"></a>
                     </div>
                     <!-- end logo -->
                     <div class="col accordion-menu px-0">
@@ -99,6 +96,26 @@
                                     </ul>
                                 </li>
                                 <!-- end about menu item -->
+
+                                <!-- start contact menu item -->
+                                <li class="dropdown simple-dropdown"><a href="#">Media</a><i class="fas fa-angle-down dropdown-toggle" data-bs-toggle="dropdown" aria-hidden="true"></i>
+                                    <!-- start sub menu -->
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li>
+                                            <li><a href="https://expecthopechurch.online.church/" title="Livestream" class="inner-link" target="_blank">Livestream</a>
+                                        </li>
+                                        <li>
+                                            <li><a href="#youtube" title="Latest Sermon" class="inner-link">Latest Sermon</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.youtube.com/@ExpectHope/featured" title="Sermons" class="inner-link" target="_blank">Past Sermons</a>
+                                        </li>
+                                        <li>
+                                            <a href="#podcast" title="Podcasts" class="inner-link">Podcasts</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <!-- end contact menu item -->
 
                                 <!-- start livestream menu item -->
                                 <li>
@@ -167,6 +184,21 @@
             <div class="swiper-container full-screen md-landscape-h-580px sm-h-500px white-move" data-slider-options='{ "loop": true, "slidesPerView": "1", "allowTouchMove":true, "autoplay": { "delay": 10000, "disableOnInteraction": false }, "keyboard": { "enabled": true, "onlyInViewport": true }, "navigation": { "nextEl": ".swiper-button-next", "prevEl": ".swiper-button-prev" }, "pagination": { "el": ".swiper-pagination-01", "clickable": true } }'>
                 <div class="swiper-wrapper">
                     <!-- start slider item -->
+                    <div id="easter-slide" class="swiper-slide cover-background">
+                        <div class="opacity-extra-medium bg-black"></div>
+                        <div class="container position-relative h-100">
+                            <div class="row h-100">
+                                <div class="col-12 d-flex flex-column justify-content-center text-center">
+                                    <div class="btn-dual margin-auto-top margin-seven-half-bottom">
+                                        <a href="https://expecthope.churchcenter.com/people/forms/517271" class="btn btn-transparent-white btn-extra-large text-uppercase" target="_blank">RSVP Now!</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end slider item -->
+
+                    <!-- start slider item -->
                     <div class="swiper-slide cover-background" style="background-image:url('./images/aaron-teri/aaron-teri-preaching1.jpeg');">
                         <div class="opacity-extra-medium bg-black"></div>
                         <div class="container position-relative h-100">
@@ -182,7 +214,7 @@
                         </div>
                     </div>
                     <!-- end slider item -->
-                    
+
                     <!-- start slider item -->
                     <div class="swiper-slide cover-background" style="background-image:url('./images/aaron-bagwell/aaron-preaching1.JPG' );">
                         <div class="opacity-light bg-black"></div>
@@ -234,6 +266,8 @@
                         </div>
                     </div>
                     <!-- end slider item -->
+
+                   
                 </div>
                 <!-- start slider pagination -->
                 <div class="swiper-pagination swiper-pagination-01 swiper-pagination-square swiper-pagination-white"></div>
@@ -371,12 +405,13 @@
             </div>
         </section>
         <!-- end feature section -->
+
         <!-- start video section -->
-        <section class="p-0 wow animate__fadeIn" id="livestream">
+        <section class="p-0 wow animate__fadeIn" id="youtube">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12 col-xl-7 col-lg-6 cover-background md-h-500px sm-h-400px overflow-visible wow animate__fadeInLeft" style="background-image:url('https://img.youtube.com/vi/HKkBv25Kkfw/maxresdefault.jpg');">
-                        <a class="popup-youtube icon-play-style-2 absolute-middle-center" href="https://www.youtube.com/watch?v=HKkBv25Kkfw">
+                    <div class="col-12 col-xl-7 col-lg-6 cover-background md-h-500px sm-h-400px overflow-visible wow animate__fadeInLeft latestVideoEmbed" id="youtube-image" style="background-image:url('https://img.youtube.com/vi/HKkBv25Kkfw/maxresdefault.jpg');">
+                        <a class="popup-youtube icon-play-style-2 absolute-middle-center" id="youtube-modal-video" href="https://www.youtube.com/watch?v=HKkBv25Kkfw">
                             <span>
                                 <span class="video-icon bg-gradient-royal-blue box-shadow-large"><i class="fa fa-play text-white-2 margin-5px-left" aria-hidden="true"></i></span>
                             </span>
@@ -396,6 +431,34 @@
             </div>
         </section>
         <!-- end video section -->
+
+
+        <!-- start information section --> 
+        <section id="podcast" class="cover-background pb-0 sm-padding-50px-bottom wow animate__fadeIn margin-130px-top" style="background: url(./images/general/background-node-web.jpg); ">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center lg-h-auto lg-bottom-minus60 position-relative wow animate__fadeIn sm-bottom-0 margin-20px-bottom">
+                        <img src="./images/general/podcast-subscribe.png"  alt="Spotify Subscribe to Podcast" />
+                    </div>
+                    <div class="col-12 col-xl-9 col-md-11 text-center margin-20px-lr margin-40px-all d-flex justify-content-center flex-row flex-md-nowrap flex-wrap "  >
+                        <div class="col-12 col-md-6 text-center margin-20px-all">
+                            <a href="https://podcasts.apple.com/us/podcast/expect-hope-with-aaron-and-teri-bagwell/id1639408144">
+                                <img src="./images/general/spotify-apple-podcast.png" class="spotify-icons" width="90%" alt="Spotify Apple Podcast" />
+                            </a>
+                            
+                        </div>
+                        <div class="col-12 col-md-6 text-center margin-20px-lr margin-20px-all">
+                            <a href="https://open.spotify.com/show/6qC48dHuUmVTSNgbUyvcOf">
+                                <img src="./images/general/spotify-podcast-android3.png" class="spotify-icons" width="90%" alt="Spotify Android Podcast" />
+                            </a>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- end information section --> 
 
          <!-- start blog section -->
          <section class="border-top border-color-extra-light-gray wow animate__fadeIn" style="display: none;">
@@ -1139,7 +1202,7 @@
                     <div class="row align-items-center">
                         <!-- start logo -->
                         <div class="col-lg-3 col-md-12 text-center text-md-start md-margin-50px-bottom sm-margin-30px-bottom">
-                            <a href="index.html"><img class="footer-logo" src="./images/logos/expect-hope-logo.png" data-at2x="./images/logos/expect-hope-logo.png" alt="Expect Hope Church"></a>
+                            <a href="index.html"><img class="footer-logo" src="./images/logos/expect-hope-church-logo-sm.png" data-at2x="./images/logos/expect-hope-church-logo-sm.png" alt="Expect Hope Church"></a>
                         </div> 
                         <!-- end logo -->
                         <!-- start copyright -->
@@ -1179,6 +1242,9 @@
         <script type="text/javascript" src="js/theme-vendors.min.js"></script>
         <!-- <script type="text/javascript" src="js/custom.js"></script> -->
         <!-- <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script> -->
+
+        <!-- youtube -->
+        <script src="js/youtube.js"></script>
 
         <!-- setting -->
         <script type="text/javascript" src="js/main.js"></script>
