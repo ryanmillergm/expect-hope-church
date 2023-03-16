@@ -2741,6 +2741,7 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
 .page-title-medium h1 {font-size: 32px; line-height: 37px}
 .page-title-large h1 {font-size: 46px; line-height: 49px}
 .page-title-extra-large h1 {font-size: 55px; line-height: 50px}
+.page-title-xxl h1 {font-size: 100px; line-height: 100px}
 .page-title-xxxl h1 {font-size: 125px; line-height: 120px}
 .title-xxl h5 {font-size: 65px; line-height: 70px}
 .title-xxxl h5 {font-size: 75px; line-height: 80px}
