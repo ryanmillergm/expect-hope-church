@@ -32,21 +32,21 @@
     color:#FF0000;
 }
 
-@media (max-width:500px){
-	#easter-slide {
-        background-image:url('../images/general/easter-slide-mobile.png');
+@media (max-width:600px){
+	#food-for-hope {
+        background-image:url('../images/general/food-for-hope-graphic-mobile.png') !important;
     }
 }
 
-@media (min-width:501px) and (max-width:1390px){
-	#easter-slide {
-        background-image:url('../images/general/easter-slide-md.png');
+@media (min-width:601px) and (max-width:1390px){
+	#food-for-hope {
+        background-image:url('../images/general/food-for-hope-graphic-md.png') !important;
     }
 }
 
 @media (min-width:1390px){
-	#easter-slide {
-        background-image:url('../images/general/easter-slide-top.png');
+	#food-for-hope {
+        background-image:url('../images/general/food-for-hope-graphic-lg.png') !important;
     }
 }
 
