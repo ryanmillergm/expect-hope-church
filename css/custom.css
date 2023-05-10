@@ -73,6 +73,9 @@
 	#food-for-hope {
         background-image:url('../images/general/food-for-hope-graphic-mobile.png') !important;
     }
+	#youth-event-schools-out {
+        background-image:url('../images/general/youth-event-schools-out-mobile.png') !important;
+    }
 
     .e-with-fixed-bg {
         height: 450px;
@@ -83,12 +86,20 @@
 	#food-for-hope {
         background-image:url('../images/general/food-for-hope-graphic-md.png') !important;
     }
+    #youth-event-schools-out {
+        background-image:url('../images/general/youth-event-schools-out-md.png') !important;
+    }
+
 }
 
 @media (min-width:1390px){
 	#food-for-hope {
         background-image:url('../images/general/food-for-hope-graphic-lg.png') !important;
     }
+    #youth-event-schools-out {
+        background-image:url('../images/general/youth-event-schools-out.png') !important;
+    }
+
 }
 
 @media only screen and (max-width:991px){
