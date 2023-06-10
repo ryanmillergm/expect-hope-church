@@ -73,13 +73,23 @@
 	#food-for-hope {
         background-image:url('../images/general/food-for-hope-graphic-mobile.png') !important;
     }
+	#youth-bbq {
+        background-image:url('../images/general/youth-bbq-mobile.png') !important;
+    }
 	#youth-event-schools-out {
         background-image:url('../images/general/youth-event-schools-out-mobile.png') !important;
     }
 
+    .btn-md-middle-sm-bottom {
+        padding-top: 350px;
+    }
+
+    .btn.btn-transparent-yellow {background: transparent; border-color: #ffffff; color: #ffffff}
+    .btn.btn-transparent-yellow:hover, .btn.btn-transparent-yellow:focus {background: #ffffff; border-color: #ffffff; color: #232323}
+
     .e-with-fixed-bg {
         height: 450px;
-      }
+    }
 }
 
 @media (min-width:601px) and (max-width:1390px){
@@ -89,7 +99,20 @@
     #youth-event-schools-out {
         background-image:url('../images/general/youth-event-schools-out-md.png') !important;
     }
+    #youth-bbq {
+        background-image:url('../images/general/youth-bbq-md.png') !important;
+    }
 
+    .btn-md-middle-sm-bottom {
+        padding-bottom: 15px;
+    }
+
+}
+
+@media (min-width:782px){
+    .btn-md-middle-sm-bottom {
+        padding-bottom: 25px;
+    }
 }
 
 @media (min-width:1390px){
@@ -99,7 +122,19 @@
     #youth-event-schools-out {
         background-image:url('../images/general/youth-event-schools-out.png') !important;
     }
+    #youth-bbq {
+        background-image:url('../images/general/youth-bbq-lg.png') !important;
+    }
 
+    .btn-md-middle-sm-bottom {
+        padding-bottom: 40px;
+    }
+}
+
+@media (min-width:1999px){
+    .btn-md-middle-sm-bottom {
+        padding-bottom: 50px;
+    }
 }
 
 @media only screen and (max-width:991px){
