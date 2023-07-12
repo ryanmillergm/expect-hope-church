@@ -73,6 +73,9 @@
 	#food-for-hope {
         background-image:url('../images/general/food-for-hope-graphic-mobile.png') !important;
     }
+    #vbs {
+        background-image:url('../images/general/vbs-mobile.png') !important;
+    }
 	#youth-bbq {
         background-image:url('../images/general/youth-bbq-mobile.png') !important;
     }
@@ -81,6 +84,10 @@
     }
 
     .btn-md-middle-sm-bottom {
+        padding-top: 350px;
+    }
+
+    .btn-vbs-placement {
         padding-top: 350px;
     }
 
@@ -96,6 +103,9 @@
 	#food-for-hope {
         background-image:url('../images/general/food-for-hope-graphic-md.png') !important;
     }
+    #vbs {
+        background-image:url('../images/general/vbs-md.png') !important;
+    }
     #youth-event-schools-out {
         background-image:url('../images/general/youth-event-schools-out-md.png') !important;
     }
@@ -107,17 +117,28 @@
         padding-bottom: 15px;
     }
 
+    .btn-vbs-placement {
+        padding-bottom: 100px;
+    }
+
 }
 
 @media (min-width:782px){
     .btn-md-middle-sm-bottom {
         padding-bottom: 25px;
     }
+
+    .btn-vbs-placement {
+        padding-bottom: 250px;
+    }
 }
 
 @media (min-width:1390px){
 	#food-for-hope {
         background-image:url('../images/general/food-for-hope-graphic-lg.png') !important;
+    }
+    #vbs {
+        background-image:url('../images/general/vbs-lg.png') !important;
     }
     #youth-event-schools-out {
         background-image:url('../images/general/youth-event-schools-out.png') !important;
@@ -129,11 +150,19 @@
     .btn-md-middle-sm-bottom {
         padding-bottom: 40px;
     }
+
+    .btn-vbs-placement {
+        padding-bottom: 150px;
+    }
 }
 
 @media (min-width:1999px){
     .btn-md-middle-sm-bottom {
         padding-bottom: 50px;
+    }
+
+    .btn-vbs-placement {
+        padding-bottom: 200px;
     }
 }
 
