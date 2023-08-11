@@ -70,6 +70,9 @@
   }
 
 @media (max-width:600px){
+    #back-to-school {
+        background-image:url('../images/general/back-to-school-md.png') !important;
+    }
 	#food-for-hope {
         background-image:url('../images/general/food-for-hope-graphic-mobile.png') !important;
     }
@@ -87,6 +90,10 @@
         padding-top: 350px;
     }
 
+    .btn-back-to-school-placement {
+        padding-top: 150px;
+    }
+
     .btn-vbs-placement {
         padding-top: 350px;
     }
@@ -100,6 +107,9 @@
 }
 
 @media (min-width:601px) and (max-width:1390px){
+    #back-to-school {
+        background-image:url('../images/general/back-to-school-md.png') !important;
+    }
 	#food-for-hope {
         background-image:url('../images/general/food-for-hope-graphic-md.png') !important;
     }
@@ -134,6 +144,9 @@
 }
 
 @media (min-width:1390px){
+    #back-to-school {
+        background-image:url('../images/general/back-to-school-lg.png') !important;
+    }
 	#food-for-hope {
         background-image:url('../images/general/food-for-hope-graphic-lg.png') !important;
     }
