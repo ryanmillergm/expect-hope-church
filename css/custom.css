@@ -73,6 +73,9 @@
     #back-to-school {
         background-image:url('../images/general/back-to-school-md.png') !important;
     }
+    #youth-retreat {
+        background-image:url('../images/youth/EHC-Youth-Winter-Retreat-Graphic-mobile.png') !important;
+    }
 	#food-for-hope {
         background-image:url('../images/general/food-for-hope-graphic-mobile.png') !important;
     }
@@ -91,11 +94,15 @@
     }
 
     .btn-back-to-school-placement {
-        padding-top: 150px;
+        padding-top: 500px !important;
     }
 
     .btn-vbs-placement {
         padding-top: 350px;
+    }
+
+    .btn-youth-retreat-placement {
+        padding-top: 300px;
     }
 
     .btn.btn-transparent-yellow {background: transparent; border-color: #ffffff; color: #ffffff}
@@ -109,6 +116,9 @@
 @media (min-width:601px) and (max-width:1390px){
     #back-to-school {
         background-image:url('../images/general/back-to-school-md.png') !important;
+    }
+    #youth-retreat {
+        background-image:url('../images/youth/EHC-Youth-Winter-Retreat-Graphic-md.png') !important;
     }
 	#food-for-hope {
         background-image:url('../images/general/food-for-hope-graphic-md.png') !important;
@@ -131,6 +141,10 @@
         padding-bottom: 100px;
     }
 
+    .btn-youth-retreat-placement {
+        padding-top: 370px;
+    }
+
 }
 
 @media (min-width:782px){
@@ -146,6 +160,9 @@
 @media (min-width:1390px){
     #back-to-school {
         background-image:url('../images/general/back-to-school-lg.png') !important;
+    }
+    #youth-retreat {
+        background-image:url('../images/youth/EHC-Youth-Winter-Retreat-Graphic-lg.png') !important;
     }
 	#food-for-hope {
         background-image:url('../images/general/food-for-hope-graphic-lg.png') !important;
@@ -167,6 +184,10 @@
     .btn-vbs-placement {
         padding-bottom: 150px;
     }
+
+    .btn-youth-retreat-placement {
+        padding-top: 250px;
+    }
 }
 
 @media (min-width:1999px){
@@ -176,6 +197,10 @@
 
     .btn-vbs-placement {
         padding-bottom: 200px;
+    }
+
+    .btn-youth-retreat-placement {
+        padding-top: 370px;
     }
 }
 

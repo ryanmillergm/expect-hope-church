@@ -43,6 +43,10 @@ Table of contents
     01. Google font
 ====================================== */
 
+:root {
+    --blue: #3379be;
+  }
+
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
 
@@ -456,6 +460,8 @@ textarea.input-bg {background-color: #f7f7f7; border-radius: 4px; border: 1px so
 .btn.btn-black:hover, .btn.btn-black:focus {background: transparent; color: #000}
 .btn.btn-dark-gray {background: #232323; border-color: #232323; color: #fff}
 .btn.btn-dark-gray:hover, .btn.btn-dark-gray:focus {background: transparent; color: #232323}
+.btn.btn-blue {background: var(--blue); border-color: #000; color: #fff}
+.btn.btn-blue:hover, .btn.btn-dark-gray:focus {background: transparent; color: #232323}
 .btn.btn-light-gray {background: #dbdbdb; border-color: #dbdbdb; color: #232323}
 .btn.btn-light-gray:hover, .btn.btn-light-gray:focus {background: transparent; border-color: #dbdbdb; color: #dbdbdb}
 .btn.btn-deep-pink {background: var(--base-color); border-color: var(--base-color); color: #ffffff}
@@ -523,6 +529,7 @@ textarea.input-bg {background-color: #f7f7f7; border-radius: 4px; border: 1px so
 /* boder align */
 .border-top {border-top: 1px solid;}
 .border-bottom {border-bottom: 1px solid;}
+.border-bottom-2px {border-bottom: 2px solid;}
 .border-left {border-left: 1px solid;}
 .border-right {border-right: 1px solid;}
 .border-lr {border-left: 1px solid; border-right: 1px solid;}
