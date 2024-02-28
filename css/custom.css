@@ -73,14 +73,14 @@
     #back-to-school {
         background-image:url('../images/general/back-to-school-md.png') !important;
     }
-    #youth-retreat {
-        background-image:url('../images/youth/EHC-Youth-Winter-Retreat-Graphic-mobile.png') !important;
+    #guest-speaker {
+        background-image:url('../images/events/steve-valdez-promo-mobile.png') !important;
     }
 	#food-for-hope {
         background-image:url('../images/general/food-for-hope-graphic-mobile.png') !important;
     }
-    #vbs {
-        background-image:url('../images/general/vbs-mobile.png') !important;
+    #mens-breakfast {
+        background-image:url('../images/events/mens-breakfast-2024-mobile.png') !important;
     }
 	#youth-bbq {
         background-image:url('../images/general/youth-bbq-mobile.png') !important;
@@ -97,11 +97,11 @@
         padding-top: 500px !important;
     }
 
-    .btn-vbs-placement {
-        padding-top: 350px;
+    .btn-mens-breakfast-placement {
+        padding-top: 370px;
     }
 
-    .btn-youth-retreat-placement {
+    .btn-guest-speaker-placement {
         padding-top: 300px;
     }
 
@@ -117,14 +117,14 @@
     #back-to-school {
         background-image:url('../images/general/back-to-school-md.png') !important;
     }
-    #youth-retreat {
-        background-image:url('../images/youth/EHC-Youth-Winter-Retreat-Graphic-md.png') !important;
+    #guest-speaker {
+        background-image:url('../images/events/steve-valdez-promo-md.png') !important;
     }
 	#food-for-hope {
         background-image:url('../images/general/food-for-hope-graphic-md.png') !important;
     }
-    #vbs {
-        background-image:url('../images/general/vbs-md.png') !important;
+    #mens-breakfast {
+        background-image:url('../images/events/mens-breakfast-2024-md.png') !important;
     }
     #youth-event-schools-out {
         background-image:url('../images/general/youth-event-schools-out-md.png') !important;
@@ -137,11 +137,11 @@
         padding-bottom: 15px;
     }
 
-    .btn-vbs-placement {
-        padding-bottom: 100px;
+    .btn-mens-breakfast-placement {
+        padding-top: 300px;
     }
 
-    .btn-youth-retreat-placement {
+    .btn-guest-speaker-placement {
         padding-top: 370px;
     }
 
@@ -152,8 +152,8 @@
         padding-bottom: 25px;
     }
 
-    .btn-vbs-placement {
-        padding-bottom: 250px;
+    .btn-mens-breakfast-placement {
+        padding-top: 750px;
     }
 }
 
@@ -161,14 +161,14 @@
     #back-to-school {
         background-image:url('../images/general/back-to-school-lg.png') !important;
     }
-    #youth-retreat {
-        background-image:url('../images/youth/EHC-Youth-Winter-Retreat-Graphic-lg.png') !important;
+    #guest-speaker {
+        background-image:url('../images/events/mens-breakfast-2024-lg.png') !important;
     }
 	#food-for-hope {
         background-image:url('../images/general/food-for-hope-graphic-lg.png') !important;
     }
-    #vbs {
-        background-image:url('../images/general/vbs-lg.png') !important;
+    #mens-breakfast {
+        background-image:url('../images/events/mens-breakfast-2024-lg.png') !important;
     }
     #youth-event-schools-out {
         background-image:url('../images/general/youth-event-schools-out.png') !important;
@@ -181,11 +181,11 @@
         padding-bottom: 40px;
     }
 
-    .btn-vbs-placement {
-        padding-bottom: 150px;
+    .btn-mens-breakfast-placement {
+        padding-top: 550px;
     }
 
-    .btn-youth-retreat-placement {
+    .btn-guest-speaker-placement {
         padding-top: 250px;
     }
 }
@@ -195,12 +195,12 @@
         padding-bottom: 50px;
     }
 
-    .btn-vbs-placement {
-        padding-bottom: 200px;
+    .btn-mens-breakfast-placement {
+        padding-top: 650px;
     }
 
-    .btn-youth-retreat-placement {
-        padding-top: 370px;
+    .btn-guest-speaker-placement {
+        padding-top: 550px;
     }
 }
 
