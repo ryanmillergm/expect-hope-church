@@ -17,15 +17,16 @@ $events = [
         'title' => 'Mens Breakfast',
         'cityState' => 'Parker, CO',
         'date' => 'December 25, 2024',
-        'sortByDate' => '2023-25-01',
+        'sortByDate' => '2024-01-01',
         'startTime' => '6:00 pm',
         'endTime' => '9:00 pm',
         'status' => 1,
         'link' => '#register',
         'image' => 'images/general/bread-and-cup-eaten.jpg',
+        'mobile_image' => 'images/general/bread-and-cup-eaten.jpg',
         'content' => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium neque fugiat id ullam fuga inventore autem quas iste doloribus. Quia rerum, delectus harum mollitia reiciendis perspiciatis doloremque earum repudiandae."
     ],
-    'New York' => [
+    'Bible Study' => [
         'title' => 'Bible Study',
         'cityState' => 'North Jersey/New York City',
         'date' => 'January 13, 2024',
@@ -34,10 +35,11 @@ $events = [
         'endTime' => '9:00 pm',
         'status' => 1,
         'link' => 'https://www.eventbrite.com/e/impartation-breakfast-new-york-tickets-708649137647',
-        'image' => 'images/general/bread-and-cup-eaten.jpg',
+        'image' => 'images/events/mens-bible-study-lg.png',
+        'mobile_image' => 'images/events/mens-bible-study-mobile.png',
         'content' => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium neque fugiat id ullam fuga inventore autem quas iste doloribus. Quia rerum, delectus harum mollitia reiciendis perspiciatis doloremque earum repudiandae."
     ],
-    'Tampa' => [
+    'Outting' => [
         'title' => 'Outting',
         'cityState' => 'Tampa, FL',
         'date' => 'Coming Soon',
@@ -47,6 +49,7 @@ $events = [
         'status' => 2,
         'link' => '#register',
         'image' => 'images/general/bread-and-cup-eaten.jpg',
+        'mobile_image' => 'images/general/bread-and-cup-eaten.jpg',
         'content' => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium neque fugiat id ullam fuga inventore autem quas iste doloribus. Quia rerum, delectus harum mollitia reiciendis perspiciatis doloremque earum repudiandae."
     ],
 ];
@@ -83,7 +86,7 @@ function dayOfWeek($date) {
     $day = dayNumberOfWeek($date);
 
     $days = array('Sunday', 'Monday', 'Tuesday', 'Wednesday','Thursday','Friday', 'Saturday');
-    $result = $days[$day];
+    $result = $days[$day];    
     
     return $result;
 }
@@ -365,9 +368,18 @@ function abreviatedDay($date) {
                                     
                                     <h4 class=""><?php echo $register['title']; ?></h4>
                                     <p class="pb-4"><?php echo $register['content']; ?></p>
+                                    <p><?php echo $events; ?></p>
+                                    
                                 </div>
                                 <div class="col-3 border border-dark" 
-                                    style="background: url(<?php echo $register['image']; ?>) no-repeat center/cover;">
+
+                                    <?php if (strstr(strtolower($_SERVER['HTTP_USER_AGENT']), 'mobile') || strstr(strtolower($_SERVER['HTTP_USER_AGENT']), 'android')) { ?>
+                                        style="background: url(<?php echo $register['mobile_image']; ?>) no-repeat center/cover;"
+                                    <?php } else { ?>
+                                        style="background: url(<?php echo $register['image']; ?>) no-repeat center/cover;"
+                                    <?php } ?>
+                                >
+
                                     <p class="mr-t-20">
                                         <a href=<?php echo $register['link']; ?> class="btn btn-default solid medium" target="_blank"><?php echo $status[$register['status']]; ?></a>                                                                
                                     </p> 
