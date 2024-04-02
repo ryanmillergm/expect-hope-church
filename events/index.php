@@ -159,7 +159,7 @@ function abreviatedDay($date) {
         <section class="overflow-hidden wow animate__fadeIn" id="first-time">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-12 col-lg-8 margin-eight-bottom text-center last-paragraph-no-margin">
+                    <div class="col-12 col-lg-10 margin-eight-bottom text-center last-paragraph-no-margin">
                         <div class="row">
                             
 
