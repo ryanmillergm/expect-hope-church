@@ -73,6 +73,12 @@
     #back-to-school {
         background-image:url('../images/general/back-to-school-md.png') !important;
     }
+    #easter {
+        background-image:url('../images/events/easter-mobile.png') !important;
+    }
+    #good-friday {
+        background-image:url('../images/events/good-friday-mobile.png') !important;
+    }
     #guest-speaker {
         background-image:url('../images/events/steve-valdez-promo-mobile.png') !important;
     }
@@ -117,6 +123,12 @@
     #back-to-school {
         background-image:url('../images/general/back-to-school-md.png') !important;
     }
+    #easter {
+        background-image:url('../images/events/easter-md.png') !important;
+    }
+    #good-friday {
+        background-image:url('../images/events/good-friday-md.png') !important;
+    }
     #guest-speaker {
         background-image:url('../images/events/steve-valdez-promo-md.png') !important;
     }
@@ -160,6 +172,12 @@
 @media (min-width:1390px){
     #back-to-school {
         background-image:url('../images/general/back-to-school-lg.png') !important;
+    }
+    #easter {
+        background-image:url('../images/events/easter-lg.png') !important;
+    }
+    #good-friday {
+        background-image:url('../images/events/good-friday-lg.png') !important;
     }
     #guest-speaker {
         background-image:url('../images/events/mens-breakfast-2024-lg.png') !important;
