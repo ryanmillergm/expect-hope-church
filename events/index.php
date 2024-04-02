@@ -22,8 +22,8 @@ $events = [
         'endTime' => '9:00 pm',
         'status' => 1,
         'link' => '#register',
-        'image' => 'images/general/bread-and-cup-eaten.jpg',
-        'mobile_image' => 'images/general/bread-and-cup-eaten.jpg',
+        'image' => '../images/general/bread-and-cup-eaten.jpg',
+        'mobile_image' => '../images/general/bread-and-cup-eaten.jpg',
         'content' => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium neque fugiat id ullam fuga inventore autem quas iste doloribus. Quia rerum, delectus harum mollitia reiciendis perspiciatis doloremque earum repudiandae."
     ],
     'Bible Study' => [
@@ -35,8 +35,8 @@ $events = [
         'endTime' => '9:00 pm',
         'status' => 1,
         'link' => 'https://www.eventbrite.com/e/impartation-breakfast-new-york-tickets-708649137647',
-        'image' => 'images/events/mens-bible-study-lg.png',
-        'mobile_image' => 'images/events/mens-bible-study-mobile.png',
+        'image' => '../images/events/mens-bible-study-lg.png',
+        'mobile_image' => '../images/events/mens-bible-study-mobile.png',
         'content' => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium neque fugiat id ullam fuga inventore autem quas iste doloribus. Quia rerum, delectus harum mollitia reiciendis perspiciatis doloremque earum repudiandae."
     ],
     'Outting' => [
@@ -48,8 +48,8 @@ $events = [
         'endTime' => '9:00 pm',
         'status' => 2,
         'link' => '#register',
-        'image' => 'images/general/bread-and-cup-eaten.jpg',
-        'mobile_image' => 'images/general/bread-and-cup-eaten.jpg',
+        'image' => '../images/general/bread-and-cup-eaten.jpg',
+        'mobile_image' => '../images/general/bread-and-cup-eaten.jpg',
         'content' => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium neque fugiat id ullam fuga inventore autem quas iste doloribus. Quia rerum, delectus harum mollitia reiciendis perspiciatis doloremque earum repudiandae."
     ],
 ];
@@ -105,231 +105,44 @@ function abreviatedDay($date) {
 
 <!doctype html>
 <html class="no-js" lang="en">
-    <head>
-        <!-- title -->
-        <title>First Time Visitor | Expect Hope Church</title>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
-        <meta name="author" content="Expect Hope Church">
-        <!-- description -->
-        <meta name="description" content="We can't wait to meet you. We have children's ministry for ages 0-12 and can pre-register your kids for service. We would love to meet you before service, get you connected and show you around.">
-        <!-- keywords -->
-        <meta name="keywords" content="Jesus, Christian, Salvation, Hope, Gospel, Bible, Fellowship, God">
-        
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-C5F27Q28WK"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
 
-        gtag('config', 'G-C5F27Q28WK');
-        </script>
-
-        <!-- Favicon -->
-        <link rel="apple-touch-icon" sizes="57x57" href="./images/favicons/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="./images/favicons/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="./images/favicons/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="./images/favicons/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="./images/favicons/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="./images/favicons/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="./images/favicons/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="./images/favicons/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="./images/favicons/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="./images/favicons/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="./images/favicons/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="./images/favicons/favicon-16x16.png">
-        <link rel="manifest" href="./images/favicons/manifest.json">
-        <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-        <meta name="theme-color" content="#ffffff">
-
-        <!-- fontawesome icons -->
-        <!-- <link rel="stylesheet" type="text/css" href="css/fontawesome/css/font-awesome.min.css" /> -->
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
-
-        <!-- style sheets and font icons  -->
-        <link rel="stylesheet" type="text/css" href="css/bootsnav.css">
-        <link rel="stylesheet" type="text/css" href="bootstrap-v5.2/css/bootstrap.min.css">
-        <!-- <link rel="stylesheet" type="text/css" href="css/bootsnav.css">
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
-        <link rel="stylesheet" type="text/css" href="css/font-icons.min.css">
-        <link rel="stylesheet" type="text/css" href="css/theme-vendors.min.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <link rel="stylesheet" type="text/css" href="css/styles.css" />
-        <link rel="stylesheet" type="text/css" href="css/custom.css" />
-        <link rel="stylesheet" type="text/css" href="css/responsive.css" />
-
-        <!-- scripts -->
-        <script src="https://js.churchcenter.com/modal/v1"></script>
-    </head>
+    <?php include '../includes/head.html';?>
+    
     <body>
-        <!-- start header -->
-        <header id="top">
-
-
-            
-            <!-- 
-                ****************
-                start navigation 
-                ****************
-            -->
-            <!-- <nav class="navbar navbar-default border-5px bootsnav navbar-fixed-top header-light background-white nav-box-width dark-link navbar-expand-lg menu-center border-blue-to-light-blue border-bottom-2px">
-                <div class="container-fluid nav-header-container"> -->
-
-            <nav class="navbar navbar-default bootsnav navbar-fixed-top header-light background-white nav-box-width dark-link navbar-expand-lg menu-center border-transparent border-bottom">
-                <div class="container-fluid nav-header-container">
-                    <!-- start logo -->
-                    <div class="col-auto col-lg-2 ps-0">
-                        <a href="index.html" title="Pofo" class="logo">
-                            <img src="./images/logos/expect-hope-church-logo-sm.png" data-at2x="./images/logos/expect-hope-church-logo-sm.png" class="logo-dark" alt="Pofo">
-                            <img src="./images/logos/expect-hope-church-logo-sm.png" data-at2x="./images/logos/expect-hope-church-logo-sm.png" alt="Pofo" class="logo-light default"></a>
-                    </div>
-                    <!-- end logo -->
-                    <div class="col accordion-menu px-0">
-                        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#navbar-collapse-toggle-1">
-                            <span class="sr-only">toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <div class="navbar-collapse collapse justify-content-center" id="navbar-collapse-toggle-1">
-                            <ul id="accordion" class="nav navbar-nav no-margin alt-font text-normal" data-in="animate__fadeIn" data-out="animate__fadeOut">
-                                <!-- start home menu item -->
-                                <li>
-                                    <a href="/index.html" title="Home" class="inner-link">Home</a>
-                                </li>
-                                <!-- end home menu item -->
-
-                                <!-- start about menu item -->
-                                <li class="dropdown simple-dropdown"><a href="#">About</a><i class="fas fa-angle-down dropdown-toggle" data-bs-toggle="dropdown" aria-hidden="true"></i>
-                                    <!-- start sub menu -->
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li>
-                                            <a href="/index.html#leadership" title="Leadership" class="inner-link">Leadership</a>
-                                        </li>
-                                        <li>
-                                            <a href="/our-beliefs.html" title="Beliefs" class="inner-link">Our Beliefs</a>
-                                        </li>
-                                        <li>
-                                            <a href="/childrens-ministry.html" title="Children's Ministry" class="inner-link">Children's Ministry</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <!-- end about menu item -->
-
-                                <!-- start contact menu item -->
-                                <li class="dropdown simple-dropdown"><a href="#">Media</a><i class="fas fa-angle-down dropdown-toggle" data-bs-toggle="dropdown" aria-hidden="true"></i>
-                                    <!-- start sub menu -->
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li>
-                                            <li><a href="/index.html#youtube" title="Latest Sermon" class="inner-link">Latest Sermon</a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.youtube.com/@ExpectHope/featured" title="Sermons" class="inner-link" target="_blank">Past Sermons</a>
-                                        </li>
-                                        <li>
-                                            <a href="/index.html#podcast" title="Podcasts" class="inner-link">Podcasts</a>
-                                        </li>
-                                        <li>
-                                            <li><a href="https://expecthopechurch.online.church/" title="Livestream" class="inner-link" target="_blank">Livestream</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <!-- end contact menu item -->
-
-                                <!-- start livestream menu item -->
-                                <li>
-                                    <li><a href="https://expecthopechurch.online.church/" title="Livestream" class="inner-link" target="_blank">Livestream</a>
-                                </li>
-                                <!-- end livestream menu item -->
-
-                                <!-- start contact menu item -->
-                                <li class="dropdown simple-dropdown"><a href="#">Contact</a><i class="fas fa-angle-down dropdown-toggle" data-bs-toggle="dropdown" aria-hidden="true"></i>
-                                    <!-- start sub menu -->
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li>
-                                            <li><a href="/index.html#contact" title="Contact" class="inner-link">Location</a>
-                                        </li>
-                                        <li>
-                                            <a href="https://expecthope.churchcenter.com/people/forms/359570?open-in-church-center-modal=true" title="Prayer Request" class="inner-link">Prayer Request</a>
-                                        </li>
-                                        <li>
-                                            <li><a href="/index.html#contact" title="Contact" class="inner-link">Contact</a>
-                                        </li>
-
-                                    </ul>
-                                </li>
-                                <!-- end contact menu item -->
-
-                                <!-- start I'm new menu item -->
-                                <li>
-                                    <li><a href="#" title="Visitor" class="inner-link">I'm New</a>
-                                </li>
-                                <!-- end I'm new menu item -->
-
-                                <!-- start giving menu item -->
-                                <li>
-                                    <li><a href="https://expecthope.churchcenter.com/giving?open-in-church-center-modal=true">Give Now</a>
-                                </li>
-                                <!-- end giving menu item -->
-                      
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-auto col-lg-2 pe-0 text-end d-none d-md-block">
-                        <div class="header-social-icon d-none d-md-inline-block no-border-left no-padding-left no-margin-left">
-                            <a href="https://www.facebook.com/Expecthopechurch/teri.l.bagwell" title="Facebook" target="_blank"><i class="fab fa-facebook-f facebook-icon" aria-hidden="true"></i></a>
-                            <a href="https://instagram.com/expecthopechurch?igshid=YmMyMTA2M2Y=" title="Instagram" target="_blank"><i class="fab fa-instagram instagram-icon" aria-hidden="true"></i></a>
-                            <a href="https://www.youtube.com/@ExpectHope" title="Youtube" target="_blank"><i class="fab fa-youtube youtube-icon" aria-hidden="true"></i></a>                          
-                        </div>
-                    </div>
-                </div>
-            </nav>
-            <!-- 
-                ****************
-                end navigation 
-                ****************
-            -->
-        </header>
-        <!-- end header -->
         
-
-
+        <?php include '../includes/header.html';?>
 
         <div class="container-md">
             <!-- start page title section -->
-        <section class="p-0 one-second-screen position-relative wow animate__fadeIn">
-            <div class="opacity-medium bg-extra-dark-gray z-index-0"></div>
-            <div class="container position-relative">
-                <div class="row align-items-center">
-                    <div class="col-12 one-second-screen d-flex flex-column justify-content-center page-title-xxl text-center">
-                        <!-- start sub title -->
-                        <span class="d-block text-white-2 opacity6 margin-10px-bottom alt-font">Expect Hope</span>
-                        <!-- end sub title -->
-                        <!-- start page title -->
-                        <h1 class="alt-font text-white-2 font-weight-600 w-80 md-w-90 sm-w-100 mx-auto mb-0 text-uppercase">Events</h1>
-                        <!-- end page title -->
+            <section class="p-0 one-second-screen position-relative wow animate__fadeIn">
+                <div class="opacity-medium bg-extra-dark-gray z-index-0"></div>
+                <div class="container position-relative">
+                    <div class="row align-items-center">
+                        <div class="col-12 one-second-screen d-flex flex-column justify-content-center page-title-xxl text-center">
+                            <!-- start sub title -->
+                            <span class="d-block text-white-2 opacity6 margin-10px-bottom alt-font">Expect Hope</span>
+                            <!-- end sub title -->
+                            <!-- start page title -->
+                            <h1 class="alt-font text-white-2 font-weight-600 w-80 md-w-90 sm-w-100 mx-auto mb-0 text-uppercase">Events</h1>
+                            <!-- end page title -->
+                        </div>
+                        <div class="down-section text-center"><a href="#first-time" class="inner-link"><i class="ti-arrow-down icon-extra-small text-white-2 bg-blue padding-15px-all sm-padding-10px-all rounded-circle"></i></a></div>
                     </div>
-                    <div class="down-section text-center"><a href="#first-time" class="inner-link"><i class="ti-arrow-down icon-extra-small text-white-2 bg-blue padding-15px-all sm-padding-10px-all rounded-circle"></i></a></div>
                 </div>
-            </div>
-            <div class="swiper-container z-index-minus2 position-absolute top-0 h-100" data-slider-options='{ "loop": true, "effect":"fade", "slidesPerView": "1", "allowTouchMove":true, "autoplay": { "delay": 4000, "disableOnInteraction": false }, "keyboard": { "enabled": true, "onlyInViewport": true }, "navigation": { "nextEl": ".swiper-button-next", "prevEl": ".swiper-button-prev" }, "pagination": { "el": ".swiper-pagination-01", "clickable": true } }'>
-                <div class="swiper-wrapper">
+                <div class="swiper-container z-index-minus2 position-absolute top-0 h-100" data-slider-options='{ "loop": true, "effect":"fade", "slidesPerView": "1", "allowTouchMove":true, "autoplay": { "delay": 4000, "disableOnInteraction": false }, "keyboard": { "enabled": true, "onlyInViewport": true }, "navigation": { "nextEl": ".swiper-button-next", "prevEl": ".swiper-button-prev" }, "pagination": { "el": ".swiper-pagination-01", "clickable": true } }'>
+                    <div class="swiper-wrapper">
 
-                    <!-- start slider item -->
-                    <div class="swiper-slide cover-background" style="background-image:url('images/church/meet-and-greet1.jpg');"></div>
-                    <!-- end slider item -->
-                    <!-- start slider item -->
-                    <div class="swiper-slide cover-background" style="background-image:url('images/church/church-service2.JPG');"></div>
-                    <!-- end slider item -->
+                        <!-- start slider item -->
+                        <div class="swiper-slide cover-background" style="background-image:url('../images/church/meet-and-greet1.jpg');"></div>
+                        <!-- end slider item -->
+                        <!-- start slider item -->
+                        <div class="swiper-slide cover-background" style="background-image:url('../images/church/church-service2.JPG');"></div>
+                        <!-- end slider item -->
 
+                    </div>
+                    <!-- <div class="swiper-pagination swiper-pagination-01 swiper-pagination-white"></div> -->
                 </div>
-                <!-- <div class="swiper-pagination swiper-pagination-01 swiper-pagination-white"></div> -->
-            </div>
-        </section>
+            </section>
         </div>
 
 
@@ -346,7 +159,7 @@ function abreviatedDay($date) {
         <section class="overflow-hidden wow animate__fadeIn" id="first-time">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-12 col-lg-8 margin-eight-bottom text-center last-paragraph-no-margin">
+                    <div class="col-12 col-lg-10 margin-eight-bottom text-center last-paragraph-no-margin">
                         <div class="row">
                             
 
@@ -566,65 +379,7 @@ function abreviatedDay($date) {
             </div>
         </section>
 
+        <?php include '../includes/footer.html';?>
 
-        <!-- start footer --> 
-        <footer class="footer-strip-dark bg-extra-dark-gray padding-90px-tb lg-padding-70px-tb md-padding-50px-tb sm-padding-40px-tb">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-8 col-md-7 col-12 text-center text-md-start sm-margin-30px-bottom">
-                        <h5 class="text-white margin-5px-bottom">Let's make something great together</h5>
-                        <span class="text-medium">Join us this Sunday! Contact us if you have any questions.</span>
-                    </div>
-                    <div class="col-lg-4 col-md-5 col-12 text-center text-md-end">
-                        <span class="text-extra-large text-extra-dark-gray text-light-gray d-inline-block sm-d-block"><a  href="mailto:info@expecthope.com" class="btn btn-large btn-transparent-white d-table d-lg-inline-block md-margin-lr-auto">Contact Us</a></span>
-                    </div> 
-                </div>
-                <div class="border-top border-color-medium-dark-gray padding-80px-top margin-80px-top lg-padding-60px-top lg-margin-60px-top md-padding-50px-top md-margin-50px-top sm-padding-40px-top sm-margin-40px-top">
-                    <div class="row align-items-center">
-                        <!-- start logo -->
-                        <div class="col-lg-3 col-md-12 text-center text-md-start md-margin-50px-bottom sm-margin-30px-bottom">
-                            <a href="index.html"><img class="footer-logo" src="./images/logos/expect-hope-church-logo-sm.png" data-at2x="./images/logos/expect-hope-church-logo-sm.png" alt="Expect Hope Church"></a>
-                        </div> 
-                        <!-- end logo -->
-                        <!-- start copyright -->
-                        <div class="col-lg-4 col-md-5 col-12 sm-margin-30px-bottom text-medium text-center text-md-start">
-                            10461 S. Parker Rd.<br>
-                            Parker, CO 80134
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-12 sm-margin-30px-bottom text-medium text-center text-md-start">
-                            (720) 452-3000<br>
-                            <a href="mailto:info@expecthope.com">info@expecthope.com</a>
-                        </div>
-                        <!-- end copyright -->
-                        <!-- start social media -->
-                        <div class="col-lg-2 col-md-3 text-center text-md-end">
-                            <div class="social-icon-style-8">
-                                <ul class="small-icon mb-0">
-                                    <a href="https://www.facebook.com/Expecthopechurch/" title="Facebook" target="_blank"><i class="fab fa-facebook-f fa-inverse facebook-icon padding-four-lr" aria-hidden="true"></i></a>
-                                    <a href="https://instagram.com/expecthopechurch?igshid=YmMyMTA2M2Y=" title="Instagram" target="_blank"><i class="fab fa-instagram fa-inverse instagram-icon padding-four-lr" aria-hidden="true"></i></a>
-                                    <a href="https://www.youtube.com/@ExpectHope" title="Youtube" target="_blank"><i class="fab fa-youtube fa-inverse youtube-icon padding-four-lr" aria-hidden="true"></i></a>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- end social media -->
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- end footer -->
-        <!-- start scroll to top -->
-        <a class="scroll-top-arrow" href="javascript:void(0);"><i class="ti-arrow-up"></i></a>
-        <!-- end scroll to top -->
-        <!-- javascript -->
-        <script type="text/javascript" src="js/jquery.min.js"></script>
-        <script type="text/javascript" src="js/bootsnav.js"></script>
-        <script type="text/javascript" src="js/jquery.nav.js"></script>
-        <script type="text/javascript" src="js/hamburger-menu.js"></script>
-        <script type="text/javascript" src="js/theme-vendors.min.js"></script>
-        <!-- <script type="text/javascript" src="js/custom.js"></script> -->
-        <!-- <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script> -->
-
-        <!-- setting -->
-        <script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>
