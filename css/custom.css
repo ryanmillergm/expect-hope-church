@@ -101,11 +101,14 @@
     #back-to-school {
         background-image:url('../images/general/back-to-school-md.png') !important;
     }
+    #baptism {
+        background-image:url('../images/events/water-baptism-2024-mobile.png') !important;
+    }
     #easter {
         background-image:url('../images/events/easter-mobile.png') !important;
     }
-    #good-friday {
-        background-image:url('../images/events/good-friday-mobile.png') !important;
+    #marriage-ministry {
+        background-image:url('../images/events/murder-mystery-mobile.png') !important;
     }
     #guest-speaker {
         background-image:url('../images/events/steve-valdez-promo-mobile.png') !important;
@@ -128,7 +131,7 @@
     }
 
     .btn-back-to-school-placement {
-        padding-top: 500px !important;
+        padding-top: 700px !important;
     }
 
     .btn-mens-breakfast-placement {
@@ -136,6 +139,10 @@
     }
 
     .btn-guest-speaker-placement {
+        padding-top: 300px;
+    }
+
+    .btn-marriage-ministry-placement {
         padding-top: 300px;
     }
 
@@ -151,11 +158,14 @@
     #back-to-school {
         background-image:url('../images/general/back-to-school-md.png') !important;
     }
+    #baptism {
+        background-image:url('../images/events/water-baptism-2024-md.png') !important;
+    }
     #easter {
         background-image:url('../images/events/easter-md.png') !important;
     }
-    #good-friday {
-        background-image:url('../images/events/good-friday-md.png') !important;
+    #marriage-ministry {
+        background-image:url('../images/events/murder-mystery-md.png') !important;
     }
     #guest-speaker {
         background-image:url('../images/events/steve-valdez-promo-md.png') !important;
@@ -185,6 +195,16 @@
         padding-top: 370px;
     }
 
+    .btn-marriage-ministry-placement {
+        padding-top: 350px;
+    }
+
+}
+
+@media (min-width:768px){
+    .btn-marriage-ministry-placement {
+        padding-top: 800px;
+    }
 }
 
 @media (min-width:782px){
@@ -201,11 +221,14 @@
     #back-to-school {
         background-image:url('../images/general/back-to-school-lg.png') !important;
     }
+    #baptism {
+        background-image:url('../images/events/water-baptism-2024-lg.png') !important;
+    }
     #easter {
         background-image:url('../images/events/easter-lg.png') !important;
     }
-    #good-friday {
-        background-image:url('../images/events/good-friday-lg.png') !important;
+    #marriage-ministry {
+        background-image:url('../images/events/murder-mystery-lg.png') !important;
     }
     #guest-speaker {
         background-image:url('../images/events/mens-breakfast-2024-lg.png') !important;
@@ -234,6 +257,10 @@
     .btn-guest-speaker-placement {
         padding-top: 250px;
     }
+
+    .btn-marriage-ministry-placement {
+        padding-top: 750px;
+    }
 }
 
 @media (min-width:1999px){
@@ -247,6 +274,10 @@
 
     .btn-guest-speaker-placement {
         padding-top: 550px;
+    }
+
+    .btn-marriage-ministry-placement {
+        padding-top: 750px;
     }
 }
 
