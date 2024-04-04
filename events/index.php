@@ -13,45 +13,51 @@ $status = [
 
 // events
 $events = [
-    'Mens Breakfast' => [
-        'title' => 'Mens Breakfast',
-        'cityState' => 'Parker, CO',
-        'date' => 'December 25, 2024',
-        'sortByDate' => '2024-01-01',
-        'startTime' => '6:00 pm',
-        'endTime' => '9:00 pm',
+    'Marriage Ministry' => [
+        'title' => 'Marriage Ministry - Murder Mystery Dinner',
+        'location' => "Maggiano's Little Italy",
+        'cityState' => 'Englewood, Co',
+        'date' => 'April 12, 2024',
+        'sortByDate' => '2024-04-12',
+        'startTime' => '6:30 pm',
+        'endTime' => '10:00 pm',
+        'cost' => '$75', 
         'status' => 1,
-        'link' => '#register',
-        'image' => '../images/general/bread-and-cup-eaten.jpg',
+        'link' => 'https://expecthope.churchcenter.com/registrations/events/2242477?open-in-church-center-modal=true',
+        'image' => '../images/events/murder-mystery-lg.png',
         'mobile_image' => '../images/general/bread-and-cup-eaten.jpg',
-        'content' => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium neque fugiat id ullam fuga inventore autem quas iste doloribus. Quia rerum, delectus harum mollitia reiciendis perspiciatis doloremque earum repudiandae."
+        'content' => "This is every detective's fantasy come true - an opportunity for people with a passion for murder mysteries to get plunked smack-dab in the middle of a hilarious investigation. Enjoy the atmosphere and fabulous cuisine of Maggiano's little Italy...but remember you could become the leading suspect!"
     ],
-    'Bible Study' => [
-        'title' => 'Bible Study',
-        'cityState' => 'North Jersey/New York City',
-        'date' => 'January 13, 2024',
-        'sortByDate' => '2024-13-01',
-        'startTime' => '6:00 pm',
-        'endTime' => '9:00 pm',
+    'Water Baptism' => [
+        'title' => 'Water Baptism',
+        'location' => 'Expect Hope Church',
+        'cityState' => 'Parker, Co',
+        'date' => 'April 14, 2024',
+        'sortByDate' => '2024-04-14',
+        'startTime' => '10:00 am',
+        'endTime' => '12:00 pm',
+        'cost' => 'Free', 
         'status' => 1,
-        'link' => 'https://www.eventbrite.com/e/impartation-breakfast-new-york-tickets-708649137647',
-        'image' => '../images/events/mens-bible-study-lg.png',
+        'link' => 'https://expecthope.churchcenter.com/registrations/events/2250378?open-in-church-center-modal=true',
+        'image' => '../images/events/water-baptism-2024-lg.png',
         'mobile_image' => '../images/events/mens-bible-study-mobile.png',
-        'content' => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium neque fugiat id ullam fuga inventore autem quas iste doloribus. Quia rerum, delectus harum mollitia reiciendis perspiciatis doloremque earum repudiandae."
+        'content' => "Join us Sunday, April 14th, for water baptisms!"
     ],
-    'Outting' => [
-        'title' => 'Outting',
-        'cityState' => 'Tampa, FL',
-        'date' => 'Coming Soon',
-        'sortByDate' => null,
-        'startTime' => '6:00 pm',
+    "Women's Book Study" => [
+        'title' => "Women's Book Study",
+        'location' => 'Expect Hope Church',
+        'cityState' => 'Parker, Co',
+        'date' => 'April 17, 2024',
+        'sortByDate' => '2024-04-17',
+        'startTime' => '7:00 pm',
         'endTime' => '9:00 pm',
-        'status' => 2,
-        'link' => '#register',
-        'image' => '../images/general/bread-and-cup-eaten.jpg',
-        'mobile_image' => '../images/general/bread-and-cup-eaten.jpg',
-        'content' => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium neque fugiat id ullam fuga inventore autem quas iste doloribus. Quia rerum, delectus harum mollitia reiciendis perspiciatis doloremque earum repudiandae."
-    ],
+        'cost' => '$15', 
+        'status' => 1,
+        'link' => 'https://expecthope.churchcenter.com/registrations/events/2250268?open-in-church-center-modal=true',
+        'image' => '../images/events/womens-book-study-lg.png',
+        'mobile_image' => '../images/events/mens-bible-study-mobile.png',
+        'content' => "Sign up today for EHC's Women Ministry Book Study! It will be a great time for the ladies of Expect Hope Church to spend time getting to know each other and growing in their faith. We hope you can join us! This is a 3 week series - 4/17. 4/24, 5/1"
+    ]
 ];
 
 ksort($events);
@@ -75,6 +81,11 @@ usort($register_array, function ($a, $b) {
     return strcmp($a['sortByDate'], $b['sortByDate']);
 });
 
+function dayNumber($date) {
+    $array = explode("-", $date);
+    $dayNumber = $array[2];
+    return $dayNumber;
+}
 
 function dayNumberOfWeek($date) {
     $day = date('w', strtotime($date));
@@ -160,16 +171,15 @@ function abreviatedDay($date) {
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 col-lg-10 margin-eight-bottom text-center last-paragraph-no-margin">
-                        <div class="row">
-                            
+                        <div class="row">                            
 
                             <?php foreach ($register_array as $register) { ?>
 
-                                <div class="col-2 border border-dark">
+                                <div class="col-2 col-md-2 border border-dark">
                                     <p class="text-uppercase pt-4"><?php echo abreviatedDay($register['sortByDate']); ?></p>
-                                    <h5 class="text-uppercase"><?php echo dayNumberOfWeek($register['sortByDate']); ?></h5>
+                                    <h5 class="text-uppercase"><?php echo dayNumber($register['sortByDate']); ?></h5>
                                 </div>
-                                <div class="col-7 border border-dark">
+                                <div class="col-10 col-md-7 border border-dark">
                                     <div class="row pt-4 pb-2">
                                         <div class="col-6">
                                             <p class=""><?php echo $register['date']; ?></p>
@@ -179,12 +189,13 @@ function abreviatedDay($date) {
                                         </div>
                                     </div>
                                     
-                                    <h4 class=""><?php echo $register['title']; ?></h4>
-                                    <p class="pb-4"><?php echo $register['content']; ?></p>
-                                    <p><?php echo $events; ?></p>
+                                    <h4 class="" style="font-weight: 500; color: #111111;"><?php echo $register['title']; ?></h4>
+                                    <p class="font-weight-bold mb-1 pb-1"><?php echo $register['content']; ?></p>
+                                    <p class="font-weight-bold mb-0 pb-1"><span style="font-weight:600;">Location:</span> <?php echo $register['location']; ?></p>
+                                    <p class="font-weight-bold mb-1 pb-1"><span style="font-weight:600;">Cost:</span> <?php echo $register['cost']; ?></p>
                                     
                                 </div>
-                                <div class="col-3 border border-dark" 
+                                <div class="d-none d-md-block col-12 col-md-3 border border-dark" 
 
                                     <?php if (strstr(strtolower($_SERVER['HTTP_USER_AGENT']), 'mobile') || strstr(strtolower($_SERVER['HTTP_USER_AGENT']), 'android')) { ?>
                                         style="background: url(<?php echo $register['mobile_image']; ?>) no-repeat center/cover;"
@@ -192,10 +203,18 @@ function abreviatedDay($date) {
                                         style="background: url(<?php echo $register['image']; ?>) no-repeat center/cover;"
                                     <?php } ?>
                                 >
-
-                                    <p class="mr-t-20">
+                                    <p class="mr-t-20 register-link">
                                         <a href=<?php echo $register['link']; ?> class="btn btn-default solid medium" target="_blank"><?php echo $status[$register['status']]; ?></a>                                                                
                                     </p> 
+                                </div>
+
+                                <div class="col-12 col-md-3 border border-dark d-block d-md-none bg-dark">
+                                    <img src=<?php echo $register['image']; ?> alt="Snow" style="width:100%;">
+                                    <div class="">
+                                        <p class="mr-t-20 register-link">
+                                            <a href=<?php echo $register['link']; ?> class="btn btn-default solid medium" target="_blank"><?php echo $status[$register['status']]; ?></a>                                                                
+                                        </p> 
+                                    </div>
                                 </div>
 
                             <?php } ?>
