@@ -25,7 +25,7 @@ $events = [
         'status' => 1,
         'link' => 'https://expecthope.churchcenter.com/registrations/events/2242477?open-in-church-center-modal=true',
         'image' => '../images/events/murder-mystery-lg.png',
-        'mobile_image' => '../images/general/bread-and-cup-eaten.jpg',
+        'mobile_image' => '../images/events/murder-mystery-mobile.png',
         'content' => "This is every detective's fantasy come true - an opportunity for people with a passion for murder mysteries to get plunked smack-dab in the middle of a hilarious investigation. Enjoy the atmosphere and fabulous cuisine of Maggiano's little Italy...but remember you could become the leading suspect!"
     ],
     'Water Baptism' => [
@@ -40,7 +40,7 @@ $events = [
         'status' => 1,
         'link' => 'https://expecthope.churchcenter.com/registrations/events/2250378?open-in-church-center-modal=true',
         'image' => '../images/events/water-baptism-2024-lg.png',
-        'mobile_image' => '../images/events/mens-bible-study-mobile.png',
+        'mobile_image' => '../images/events/water-baptism-2024-mobile.png',
         'content' => "Join us Sunday, April 14th, for water baptisms!"
     ],
     "Women's Book Study" => [
@@ -55,7 +55,7 @@ $events = [
         'status' => 1,
         'link' => 'https://expecthope.churchcenter.com/registrations/events/2250268?open-in-church-center-modal=true',
         'image' => '../images/events/womens-book-study-lg.png',
-        'mobile_image' => '../images/events/mens-bible-study-mobile.png',
+        'mobile_image' => '../images/events/womens-book-study-mobile.png',
         'content' => "Sign up today for EHC's Women Ministry Book Study! It will be a great time for the ladies of Expect Hope Church to spend time getting to know each other and growing in their faith. We hope you can join us! This is a 3 week series - 4/17. 4/24, 5/1"
     ]
 ];
