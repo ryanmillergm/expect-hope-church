@@ -119,6 +119,9 @@
     #mens-breakfast {
         background-image:url('../images/events/mens-breakfast-2024-mobile.png') !important;
     }
+    #womens-study {
+        background-image:url('../images/events/womens-book-study-mobile.png') !important;
+    }
 	#youth-bbq {
         background-image:url('../images/general/youth-bbq-mobile.png') !important;
     }
@@ -176,6 +179,9 @@
     #mens-breakfast {
         background-image:url('../images/events/mens-breakfast-2024-md.png') !important;
     }
+    #womens-study {
+        background-image:url('../images/events/womens-book-study-md.png') !important;
+    }
     #youth-event-schools-out {
         background-image:url('../images/general/youth-event-schools-out-md.png') !important;
     }
@@ -201,9 +207,15 @@
 
 }
 
-@media (min-width:768px){
+@media (min-width:768px) and (max-width:887x){
     .btn-marriage-ministry-placement {
-        padding-top: 800px;
+        padding-top: 600px;
+    }
+}
+
+@media (min-width:887px) and (max-width:991px){
+    .btn-marriage-ministry-placement {
+        padding-top: 400px;
     }
 }
 
@@ -214,6 +226,18 @@
 
     .btn-mens-breakfast-placement {
         padding-top: 750px;
+    }
+}
+@media only screen and (max-width: 991px) and (orientation: landscape) {
+    .btn-marriage-ministry-placement {
+        padding-top: 200px;
+    }
+}
+
+
+@media (min-width:992px) {
+    .btn-marriage-ministry-placement {
+        padding-top: 600px;
     }
 }
 
@@ -239,6 +263,9 @@
     #mens-breakfast {
         background-image:url('../images/events/mens-breakfast-2024-lg.png') !important;
     }
+    #womens-study {
+        background-image:url('../images/events/womens-book-study-lg.png') !important;
+    }
     #youth-event-schools-out {
         background-image:url('../images/general/youth-event-schools-out.png') !important;
     }
@@ -259,7 +286,7 @@
     }
 
     .btn-marriage-ministry-placement {
-        padding-top: 750px;
+        padding-top: 650px;
     }
 }
 
