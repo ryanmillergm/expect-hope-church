@@ -90,6 +90,10 @@
     transform: translateZ(0);
     will-change: transform;
   }
+
+  .bg-gray-gradient {
+    background: linear-gradient(to right, rgba(243, 244, 246, 1), rgba(255,0,0,0));
+  }
   
   .e-container {
     z-index: 1;

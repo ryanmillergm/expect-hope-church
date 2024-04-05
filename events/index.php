@@ -6,7 +6,7 @@
 
     <?php include '../includes/head.html';?>
     
-    <body>
+    <body class="bg-gray-gradient">
         
         <?php include '../includes/header.html';?>
 
