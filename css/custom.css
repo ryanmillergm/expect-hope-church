@@ -97,6 +97,37 @@
     background: transparent;
   }
 
+
+  .card-container .card:hover {
+    transform: scale(1.05);
+  }
+
+  .card-img-top:hover {
+    opacity: 0.85;
+    filter: brightness(1.1);
+  }
+
+  .card-title {
+    font-family: "Montserrat", "IBM Plex Sans", "Arimo", sans-serif;
+    font-weight: 700;
+    color: #235485
+  }
+
+  .btn-events {
+    color: #fff;
+    background-color: #3379BE;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+  .btn-events:hover {
+    color: #fff;
+    background-color: #235485;
+    font-size: 18px;
+    padding: 6px 12px;
+    border-radius: 5px;
+  }
+
 @media (max-width:600px){
     #back-to-school {
         background-image:url('../images/general/back-to-school-md.png') !important;
