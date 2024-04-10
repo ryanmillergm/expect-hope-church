@@ -154,6 +154,9 @@
     #mens-breakfast {
         background-image:url('../images/events/mens-breakfast-2024-mobile.png') !important;
     }
+    #mens-outting {
+        background-image:url('../images/events/mens-ministry-clay-shooting-outing-400x600-mobile.png') !important;
+    }
     #womens-study {
         background-image:url('../images/events/womens-book-study-mobile.png') !important;
     }
@@ -213,6 +216,9 @@
     }
     #mens-breakfast {
         background-image:url('../images/events/mens-breakfast-2024-md.png') !important;
+    }
+    #mens-outting {
+        background-image:url('../images/events/mens-ministry-clay-shooting-outing-1150x1250-md.png') !important;
     }
     #womens-study {
         background-image:url('../images/events/womens-book-study-md.png') !important;
@@ -297,6 +303,9 @@
     }
     #mens-breakfast {
         background-image:url('../images/events/mens-breakfast-2024-lg.png') !important;
+    }
+    #mens-outting {
+        background-image:url('../images/events/mens-ministry-clay-shooting-outing-1920x1080-lg.png') !important;
     }
     #womens-study {
         background-image:url('../images/events/womens-book-study-lg.png') !important;
