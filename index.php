@@ -28,7 +28,7 @@
                 <div class="swiper-wrapper">
 
                     <!-- start slider item -->
-                    <div id="marriage-ministry" class="swiper-slide cover-background" style="background-image:url('./images/events/murder-mystery-lg.png');">
+                    <!-- <div id="marriage-ministry" class="swiper-slide cover-background" style="background-image:url('./images/events/murder-mystery-lg.png');">
                         <div class="opacity-very-light bg-black"></div>
                         <div class="container position-relative h-100">
                             <div class="row h-100">
@@ -39,11 +39,11 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- end slider item -->
 
                     <!-- start slider item -->
-                    <div id="baptism" class="swiper-slide cover-background" style="background-image:url('./images/events/water-baptism-2024-lg.png');">
+                    <!-- <div id="baptism" class="swiper-slide cover-background" style="background-image:url('./images/events/water-baptism-2024-lg.png');">
                         <div class="opacity-very-light bg-black"></div>
                         <div class="container position-relative h-100">
                             <div class="row h-100">
@@ -54,7 +54,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- end slider item -->
 
                     <!-- start slider item -->
