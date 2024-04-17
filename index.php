@@ -73,7 +73,7 @@
                     <!-- end slider item -->
 
                     <!-- start slider item -->
-                    <div id="mens-outting" class="swiper-slide cover-background" style="background-image:url('./images/events/mens-ministry-clay-shooting-outing-1920x1080-lg.png');">
+                    <!-- <div id="mens-outting" class="swiper-slide cover-background" style="background-image:url('./images/events/mens-ministry-clay-shooting-outing-1920x1080-lg.png');">
                         <div class="opacity-very-light bg-black"></div>
                         <div class="container position-relative h-100">
                             <div class="row h-100">
@@ -84,7 +84,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- end slider item -->
 
                     <!-- start slider item -->
