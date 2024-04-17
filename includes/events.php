@@ -58,21 +58,21 @@ $events = [
         'mobile_image' => '../images/events/womens-book-study-mobile.png',
         'content' => "Sign up today for EHC's Women Ministry Book Study! It will be a great time for the ladies of Expect Hope Church to spend time getting to know each other and growing in their faith. We hope you can join us! This is a 3 week series - 4/17. 4/24, 5/1"
     ],
-    "Men's Ministry Clay Shooting outing" => [
-        'title' => "Men's Ministry Clay Shooting outing",
-        'location' => 'Kiowa Creek Sporting Club',
-        'cityState' => 'Bennett, Co',
-        'date' => 'April 27, 2024',
-        'sortByDate' => '2024-04-27',
-        'startTime' => '1:15 pm',
-        'endTime' => '3:30 pm',
-        'cost' => '$105', 
-        'status' => 1,
-        'link' => 'https://expecthope.churchcenter.com/registrations/events/2250311?open-in-church-center-modal=true',
-        'image' => '../images/events/mens-ministry-clay-shooting-outing-1920x1080-lg.png',
-        'mobile_image' => '../images/events/mens-ministry-clay-shooting-outing-400x600-mobile.png',
-        'content' => "Get ready for an awesome time as the men's ministry heads out to a clay shooting range for an awesome day of bonding April 27th!"
-    ]
+    // "Men's Ministry Clay Shooting outing" => [
+    //     'title' => "Men's Ministry Clay Shooting outing",
+    //     'location' => 'Kiowa Creek Sporting Club',
+    //     'cityState' => 'Bennett, Co',
+    //     'date' => 'April 27, 2024',
+    //     'sortByDate' => '2024-04-27',
+    //     'startTime' => '1:15 pm',
+    //     'endTime' => '3:30 pm',
+    //     'cost' => '$105', 
+    //     'status' => 1,
+    //     'link' => 'https://expecthope.churchcenter.com/registrations/events/2250311?open-in-church-center-modal=true',
+    //     'image' => '../images/events/mens-ministry-clay-shooting-outing-1920x1080-lg.png',
+    //     'mobile_image' => '../images/events/mens-ministry-clay-shooting-outing-400x600-mobile.png',
+    //     'content' => "Get ready for an awesome time as the men's ministry heads out to a clay shooting range for an awesome day of bonding April 27th!"
+    // ]
 ];
 
 ksort($events);
