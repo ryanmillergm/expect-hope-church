@@ -58,7 +58,7 @@
                     <!-- end slider item -->
 
                     <!-- start slider item -->
-                    <div id="womens-study" class="swiper-slide cover-background" style="background-image:url('./images/events/womens-book-study-lg.png');">
+                    <!-- <div id="womens-study" class="swiper-slide cover-background" style="background-image:url('./images/events/womens-book-study-lg.png');">
                         <div class="opacity-very-light bg-black"></div>
                         <div class="container position-relative h-100">
                             <div class="row h-100">
@@ -69,7 +69,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- end slider item -->
 
                     <!-- start slider item -->

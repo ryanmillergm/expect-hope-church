@@ -43,21 +43,21 @@ $events = [
     //     'mobile_image' => '../images/events/water-baptism-2024-mobile.png',
     //     'content' => "Join us Sunday, April 14th, for water baptisms!"
     // ],
-    "Women's Book Study" => [
-        'title' => "Women's Book Study",
-        'location' => 'Expect Hope Church',
-        'cityState' => 'Parker, Co',
-        'date' => 'April 17, 2024',
-        'sortByDate' => '2024-04-17',
-        'startTime' => '7:00 pm',
-        'endTime' => '9:00 pm',
-        'cost' => '$15', 
-        'status' => 1,
-        'link' => 'https://expecthope.churchcenter.com/registrations/events/2250268?open-in-church-center-modal=true',
-        'image' => '../images/events/womens-book-study-lg.png',
-        'mobile_image' => '../images/events/womens-book-study-mobile.png',
-        'content' => "Sign up today for EHC's Women Ministry Book Study! It will be a great time for the ladies of Expect Hope Church to spend time getting to know each other and growing in their faith. We hope you can join us! This is a 3 week series - 4/17. 4/24, 5/1"
-    ],
+    // "Women's Book Study" => [
+    //     'title' => "Women's Book Study",
+    //     'location' => 'Expect Hope Church',
+    //     'cityState' => 'Parker, Co',
+    //     'date' => 'April 17, 2024',
+    //     'sortByDate' => '2024-04-17',
+    //     'startTime' => '7:00 pm',
+    //     'endTime' => '9:00 pm',
+    //     'cost' => '$15', 
+    //     'status' => 1,
+    //     'link' => 'https://expecthope.churchcenter.com/registrations/events/2250268?open-in-church-center-modal=true',
+    //     'image' => '../images/events/womens-book-study-lg.png',
+    //     'mobile_image' => '../images/events/womens-book-study-mobile.png',
+    //     'content' => "Sign up today for EHC's Women Ministry Book Study! It will be a great time for the ladies of Expect Hope Church to spend time getting to know each other and growing in their faith. We hope you can join us! This is a 3 week series - 4/17. 4/24, 5/1"
+    // ],
     // "Men's Ministry Clay Shooting outing" => [
     //     'title' => "Men's Ministry Clay Shooting outing",
     //     'location' => 'Kiowa Creek Sporting Club',
