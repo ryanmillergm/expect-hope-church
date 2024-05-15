@@ -68,35 +68,41 @@
         <section class="overflow-hidden wow animate__fadeIn" id="first-time">
             <div class="container">
 
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-                    <?php foreach ($register_array as $register) { ?>
-                        <div class="col card-container">
-                            <div class="card h-100">
+                <?php if (count($register_array) > 0) { ?>
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                        <?php foreach ($register_array as $register) { ?>
+                            <div class="col card-container">
+                                <div class="card h-100">
 
-                                <a href="<?php echo $register['link']; ?>">
-                                    <img class="card-img-top" src="<?php echo $register['image']; ?>" alt="Card image cap">
-                                </a>
+                                    <a href="<?php echo $register['link']; ?>">
+                                        <img class="card-img-top" src="<?php echo $register['image']; ?>" alt="Card image cap">
+                                    </a>
 
-                                <div class="card-body d-flex flex-column justify-content-between h-100">
-                                    <div>
-                                        <a href="<?php echo $register['link']; ?>" class="">
-                                            <h5 class="card-title"><?php echo $register['title']; ?></h5>
-                                        </a>
-                                        <p class="fw-semibold m-0"><?php echo day($register['sortByDate']); ?></p>
-                                        <p class="fw-semibold m-0"><?php echo $register['date']; ?> </p>
-                                        <p class="fw-semibold m-0"><?php echo $register['startTime']; ?> - <?php echo $register['endTime']; ?></p>
-                                        <p class="font-weight-bold mb-1 pb-1"><span style="font-weight:600;">Cost:</span> <?php echo $register['cost']; ?></p>
-                                        <p class="card-text"><?php echo $register['content']; ?></p>
-                                    </div>
-                                    
-                                    <div class="pt-4">
-                                        <a href="<?php echo $register['link']; ?>" class="btn btn-events">Register</a>
+                                    <div class="card-body d-flex flex-column justify-content-between h-100">
+                                        <div>
+                                            <a href="<?php echo $register['link']; ?>" class="">
+                                                <h5 class="card-title"><?php echo $register['title']; ?></h5>
+                                            </a>
+                                            <p class="fw-semibold m-0"><?php echo day($register['sortByDate']); ?></p>
+                                            <p class="fw-semibold m-0"><?php echo $register['date']; ?> </p>
+                                            <p class="fw-semibold m-0"><?php echo $register['startTime']; ?> - <?php echo $register['endTime']; ?></p>
+                                            <p class="font-weight-bold mb-1 pb-1"><span style="font-weight:600;">Cost:</span> <?php echo $register['cost']; ?></p>
+                                            <p class="card-text"><?php echo $register['content']; ?></p>
+                                        </div>
+                                        
+                                        <div class="pt-4">
+                                            <a href="<?php echo $register['link']; ?>" class="btn btn-events">Register</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    <?php } ?>
-                </div>
+                        <?php } ?>
+                    </div>
+                <?php } else { ?>
+                    <div>
+                        <h2 class="text-center">There are currently no upcoming events.</h2>
+                    </div>
+                <?php } ?>
 
                 
                 <div class="py-4"></div>
