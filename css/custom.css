@@ -152,7 +152,7 @@
         background-image:url('../images/general/food-for-hope-graphic-mobile.png') !important;
     }
     #mens-breakfast {
-        background-image:url('../images/events/mens-breakfast-2024-mobile.png') !important;
+        background-image:url('../images/events/mens-breakfast-graphic-sm.png') !important;
     }
     #mens-outting {
         background-image:url('../images/events/mens-ministry-clay-shooting-outing-400x600-mobile.png') !important;
@@ -176,7 +176,7 @@
     }
 
     .btn-mens-breakfast-placement {
-        padding-top: 370px;
+        padding-top: 100px;
     }
 
     .btn-guest-speaker-placement {
@@ -215,7 +215,7 @@
         background-image:url('../images/general/food-for-hope-graphic-md.png') !important;
     }
     #mens-breakfast {
-        background-image:url('../images/events/mens-breakfast-2024-md.png') !important;
+        background-image:url('../images/events/mens-breakfast-graphic-md.png') !important;
     }
     #mens-outting {
         background-image:url('../images/events/mens-ministry-clay-shooting-outing-1150x1250-md.png') !important;
@@ -235,7 +235,7 @@
     }
 
     .btn-mens-breakfast-placement {
-        padding-top: 300px;
+        padding-top: 90px;
     }
 
     .btn-guest-speaker-placement {
@@ -266,7 +266,7 @@
     }
 
     .btn-mens-breakfast-placement {
-        padding-top: 750px;
+        padding-top: 150px;
     }
 }
 @media only screen and (max-width: 991px) and (orientation: landscape) {
@@ -302,7 +302,7 @@
         background-image:url('../images/general/food-for-hope-graphic-lg.png') !important;
     }
     #mens-breakfast {
-        background-image:url('../images/events/mens-breakfast-2024-lg.png') !important;
+        background-image:url('../images/events/mens-breakfast-lg.png') !important;
     }
     #mens-outting {
         background-image:url('../images/events/mens-ministry-clay-shooting-outing-1920x1080-lg.png') !important;
@@ -322,7 +322,7 @@
     }
 
     .btn-mens-breakfast-placement {
-        padding-top: 550px;
+        padding-top: 300px;
     }
 
     .btn-guest-speaker-placement {

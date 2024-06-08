@@ -28,18 +28,18 @@
                 <div class="swiper-wrapper">
 
                     <!-- start slider item -->
-                    <!-- <div id="marriage-ministry" class="swiper-slide cover-background" style="background-image:url('./images/events/murder-mystery-lg.png');">
+                    <div id="mens-breakfast" class="swiper-slide cover-background" style="background-image:url('./images/events/mens-breakfast-lg.png');">
                         <div class="opacity-very-light bg-black"></div>
                         <div class="container position-relative h-100">
                             <div class="row h-100">
                                 <div class="col-12 d-flex flex-column justify-content-center text-center">
-                                    <div class="btn-dual btn-marriage-ministry-placement">
-                                        <a href="https://expecthope.churchcenter.com/registrations/events/2242477?open-in-church-center-modal=true" class="btn btn-white btn-extra-large sm-margin-two-all inner-link text-uppercase">More Info</a>
+                                    <div class="btn-dual btn-mens-breakfast-placement">
+                                        <a href="https://expecthope.churchcenter.com/registrations/events/2309753?open-in-church-center-modal=true" class="btn btn-white btn-extra-large sm-margin-two-all inner-link text-uppercase">Register</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
                     <!-- end slider item -->
 
                     <!-- start slider item -->
