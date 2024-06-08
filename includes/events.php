@@ -26,7 +26,7 @@ $events = [
         'link' => 'https://expecthope.churchcenter.com/registrations/events/2309753?open-in-church-center-modal=true',
         'image' => '../images/events/mens-breakfast-lg.png',
         'mobile_image' => '../images/events/mens-breakfast-graphic-sm.png',
-        'content' => "Come join us Saturday, July 20th, for our Men's Breakfast! Fellowship, worship, play games and get fed  spiritually & physically. Pastor Aaron will be delivering an amazing message you won't want to miss!"
+        'content' => "Come join us Saturday, July 20th, for our Men's Breakfast! Fellowship, worship, play games and get fed  spiritually & physically. A powerful message will be delivered and you won't want to miss!"
     ],
     // 'Water Baptism' => [
     //     'title' => 'Water Baptism',
