@@ -124,7 +124,7 @@
                         </div>
                     </div>
                     <!-- Left Text Background White-->
-                    <div class="col-12 col-xl-6 col-lg-6 bg-white last-paragraph-no-margin text-center text-lg-start">
+                    <div class="col-12 col-xl-6 col-lg-6 bg-white last-paragraph-no-margin text-center text-lg-start z-10">
                         <div class="padding-80px-all xl-padding-40px-all md-padding-60px-all sm-padding-40px-all title-xxxl">
                             <h5 class="alt-font font-weight-700 text-extra-dark-gray text-uppercase">04</h5>
                             <h5 class="alt-font font-weight-700 text-extra-dark-gray text-uppercase">Evangelism</h5>
