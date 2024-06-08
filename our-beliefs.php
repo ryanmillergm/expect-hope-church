@@ -119,7 +119,9 @@
                             <p class="w-95 lg-w-100 text-xl font-weight-500">1 Timothy 3:16; Romans 3:25,26</p>
                         </div>
                         <!-- Right Image -->
-                        <div class="cover-background" style="background-image: url('./images/general/praise-and-worship-bg-cropped2.jpg'); height: 100%"><div class="md-h-500px sm-h-350px"></div></div>
+                        <div class="cover-background" style="background-image: url('./images/general/praise-and-worship-bg-cropped2.jpg'); height: 100%">
+                            <div class="md-h-500px sm-h-350px"></div>
+                        </div>
                     </div>
                     <!-- Left Text Background White-->
                     <div class="col-12 col-xl-6 col-lg-6 bg-white last-paragraph-no-margin text-center text-lg-start">
@@ -131,8 +133,9 @@
                             <p class="w-95 lg-w-100 text-xl font-weight-500">Acts 1:8; Mark 16:15-18</p>
                         </div>
                     </div>
+                    
                     <!-- Right Text Background Black -->
-                    <div class="col-12 col-xl-6 col-lg-6 bg-black last-paragraph-no-margin text-center text-lg-start">
+                    <div class="col-12 col-xl-6 col-lg-6 bg-black last-paragraph-no-margin text-center text-lg-start z-10">
                         <div class="padding-80px-all xl-padding-40px-all md-padding-60px-all sm-padding-40px-all title-xxxl">
                             <h5 class="alt-font font-weight-700 text-very-light-gray text-uppercase">05</h5>
                             <h5 class="alt-font font-weight-700 text-very-light-gray text-uppercase">Salvation</h5>
@@ -145,7 +148,7 @@
                     <div class="col-12 col-xl-6 col-lg-6 cover-background" style="background-image: url('./images/general/praying-men-arms-out.jpg')"><div class="md-h-500px sm-h-350px"></div></div>
                     
                     <!-- Right Text Background White -->
-                    <div class="col-12 col-xl-6 col-lg-6 bg-white last-paragraph-no-margin text-center text-lg-start">
+                    <div class="col-12 col-xl-6 col-lg-6 bg-white last-paragraph-no-margin text-center text-lg-start z-10">
                         <div class="padding-80px-all xl-padding-40px-all md-padding-60px-all sm-padding-40px-all title-xxxl">
                             <h5 class="alt-font font-weight-700 text-extra-dark-gray text-uppercase">06</h5>
                             <h5 class="alt-font font-weight-700 text-extra-dark-gray text-uppercase">Sanctification</h5>

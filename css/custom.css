@@ -1,7 +1,10 @@
 :root {
     --blue: #3379be;
-  }
+}
 
+.z-10 {
+    z-index: 10;
+}
 
 .facebook-icon:hover {
     color: #3b5998;
