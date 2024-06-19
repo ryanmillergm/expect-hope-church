@@ -14,7 +14,7 @@ $status = [
 // events
 $events = [
     "Men's Breakfast" => [
-        'id' => "mens-breakfast",
+        'id' => "mens-breakfast-2024",
         'title' => "Men's Breakfast",
         'location' => "Expect Hope Church",
         'cityState' => 'Parker, Co',
