@@ -71,10 +71,10 @@
                 <?php if (count($register_array) > 0) { ?>
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                         <?php foreach ($register_array as $register) { ?>
-                            <div class="col card-container">
+                            <div class="col card-container" id="<?php echo $register['id']; ?>">
                                 <div class="card h-100">
 
-                                    <a href="<?php echo $register['link']; ?>">
+                                    <a href="<?php echo $register['link']; ?>" class="<?php echo $register['btn-additional-classes']; ?>">
                                         <img class="card-img-top" src="<?php echo $register['image']; ?>" alt="Card image cap">
                                     </a>
 
@@ -91,7 +91,7 @@
                                         </div>
                                         
                                         <div class="pt-4">
-                                            <a href="<?php echo $register['link']; ?>" class="btn btn-events">Register</a>
+                                            <a href="<?php echo $register['link']; ?>" class="btn btn-events <?php echo $register['btn-additional-classes']; ?>" disabled><?php echo $register['btn-title']; ?></a>
                                         </div>
                                     </div>
                                 </div>
