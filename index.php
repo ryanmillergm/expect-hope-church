@@ -27,6 +27,21 @@
             <div class="swiper-container full-screen md-landscape-h-400px sm-h-500px white-move" data-slider-options='{ "loop": true, "slidesPerView": "1", "allowTouchMove":true, "autoplay": { "delay": 10000, "disableOnInteraction": false }, "keyboard": { "enabled": true, "onlyInViewport": true }, "navigation": { "nextEl": ".swiper-button-next", "prevEl": ".swiper-button-prev" }, "pagination": { "el": ".swiper-pagination-01", "clickable": true } }'>
                 <div class="swiper-wrapper">
 
+                        <!-- start slider item -->
+                        <div id="baptism" class="swiper-slide cover-background" style="background-image:url('./images/events/water-baptisms-07-2024-lg.jpg');">
+                            <div class="opacity-very-light bg-black"></div>
+                            <div class="container position-relative h-100">
+                                <div class="row h-100">
+                                    <div class="col-12 d-flex flex-column justify-content-center text-center">
+                                        <div class="btn-dual btn-baptism-placement">
+                                            <a href="/events#water-baptism" class="btn btn-white btn-extra-large sm-margin-two-all inner-link text-uppercase">More Info</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end slider item -->
+
                     <!-- start slider item -->
                     <div id="mens-breakfast" class="swiper-slide cover-background" style="background-image:url('./images/events/mens-breakfast-lg.png');">
                         <div class="opacity-very-light bg-black"></div>
@@ -40,21 +55,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- end slider item -->
-
-                    <!-- start slider item -->
-                    <!-- <div id="baptism" class="swiper-slide cover-background" style="background-image:url('./images/events/water-baptism-2024-lg.png');">
-                        <div class="opacity-very-light bg-black"></div>
-                        <div class="container position-relative h-100">
-                            <div class="row h-100">
-                                <div class="col-12 d-flex flex-column justify-content-center text-center">
-                                    <div class="btn-dual btn-marriage-ministry-placement">
-                                        <a href="https://expecthope.churchcenter.com/registrations/events/2250378?open-in-church-center-modal=true" class="btn btn-white btn-extra-large sm-margin-two-all inner-link text-uppercase">More Info</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
                     <!-- end slider item -->
 
                     <!-- start slider item -->
