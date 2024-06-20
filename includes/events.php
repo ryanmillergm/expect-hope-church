@@ -47,7 +47,7 @@ $events = [
         'mobile_image' => '../images/events/water-baptisms-07-2024-mobile.jpg',
         'content' => "Join us Sunday, July 14th, for water baptisms!",
         'btn-title' => 'Register',
-        'btn-additional-classes' => 'pointer-none'
+        'btn-additional-classes' => ''
     ],
     // "Women's Book Study" => [
     //     'title' => "Women's Book Study",
@@ -63,6 +63,8 @@ $events = [
     //     'image' => '../images/events/womens-book-study-lg.png',
     //     'mobile_image' => '../images/events/womens-book-study-mobile.png',
     //     'content' => "Sign up today for EHC's Women Ministry Book Study! It will be a great time for the ladies of Expect Hope Church to spend time getting to know each other and growing in their faith. We hope you can join us! This is a 3 week series - 4/17. 4/24, 5/1"
+    //      'btn-title' => 'Register',
+    //      'btn-additional-classes' => 'pointer-none'
     // ],
     // "Men's Ministry Clay Shooting outing" => [
     //     'title' => "Men's Ministry Clay Shooting outing",
@@ -78,6 +80,8 @@ $events = [
     //     'image' => '../images/events/mens-ministry-clay-shooting-outing-1920x1080-lg.png',
     //     'mobile_image' => '../images/events/mens-ministry-clay-shooting-outing-400x600-mobile.png',
     //     'content' => "Get ready for an awesome time as the men's ministry heads out to a clay shooting range for an awesome day of bonding April 27th!"
+    //      'btn-title' => 'Register',
+    //      'btn-additional-classes' => 'pointer-none'
     // ]
 ];
 
