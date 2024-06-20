@@ -42,11 +42,11 @@ $events = [
         'endTime' => '12:00 pm',
         'cost' => 'Free', 
         'status' => 1,
-        'link' => 'javascript:void(0)',
+        'link' => 'https://expecthope.churchcenter.com/people/forms/500700',
         'image' => '../images/events/water-baptisms-07-2024-lg.jpg',
         'mobile_image' => '../images/events/water-baptisms-07-2024-mobile.jpg',
         'content' => "Join us Sunday, July 14th, for water baptisms!",
-        'btn-title' => 'Register in Person',
+        'btn-title' => 'Register',
         'btn-additional-classes' => 'pointer-none'
     ],
     // "Women's Book Study" => [
@@ -74,7 +74,7 @@ $events = [
     //     'endTime' => '3:30 pm',
     //     'cost' => '$105', 
     //     'status' => 1,
-    //     'link' => 'https://expecthope.churchcenter.com/registrations/events/2250311?open-in-church-center-modal=true',
+    //     'link' => ''link' => 'javascript:void(0)',',
     //     'image' => '../images/events/mens-ministry-clay-shooting-outing-1920x1080-lg.png',
     //     'mobile_image' => '../images/events/mens-ministry-clay-shooting-outing-400x600-mobile.png',
     //     'content' => "Get ready for an awesome time as the men's ministry heads out to a clay shooting range for an awesome day of bonding April 27th!"
