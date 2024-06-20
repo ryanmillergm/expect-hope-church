@@ -91,7 +91,7 @@
                                         </div>
                                         
                                         <div class="pt-4">
-                                            <a href="<?php echo $register['link']; ?>" class="btn btn-events <?php echo $register['btn-additional-classes']; ?>" disabled><?php echo $register['btn-title']; ?></a>
+                                            <a href="<?php echo $register['link']; ?>" class="btn btn-events <?php echo $register['btn-additional-classes']; ?>" target="_blank"><?php echo $register['btn-title']; ?></a>
                                         </div>
                                     </div>
                                 </div>
