@@ -74,13 +74,13 @@
                             <div class="col card-container" id="<?php echo $register['id']; ?>">
                                 <div class="card h-100">
 
-                                    <a href="<?php echo $register['link']; ?>" class="<?php echo $register['btn-additional-classes']; ?>">
+                                    <a href="<?php echo $register['link']; ?>" class="<?php echo $register['btn-additional-classes']; ?>" target="_blank">
                                         <img class="card-img-top" src="<?php echo $register['image']; ?>" alt="Card image cap">
                                     </a>
 
                                     <div class="card-body d-flex flex-column justify-content-between h-100">
                                         <div>
-                                            <a href="<?php echo $register['link']; ?>" class="">
+                                            <a href="<?php echo $register['link']; ?>" class="" target="_blank">
                                                 <h5 class="card-title"><?php echo $register['title']; ?></h5>
                                             </a>
                                             <p class="fw-semibold m-0"><?php echo day($register['sortByDate']); ?></p>
