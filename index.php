@@ -2,7 +2,7 @@
 <html class="no-js" lang="en">
     <head>
         <!-- title -->
-        <title>Expect Hope Church</title>
+        <title>Expect Hope Church | Parker, Colorado</title>
 
         <!-- description -->
         <meta name="description" content="Don't just hear about God, experience Him. That is what we are all about here at Expect Hope Church. Expect Hope Church is a local church with a vision to connect people and families to the knowledge and love of Jesus. We exist to help all people be freed from injustice and be given a future full of hope. We accomplish this with our mission of Seek, Equip and Send. No matter who you are or what your background is, Expect Hope Church is a place of love, discipleship, community and devotion to Jesus and to people in our city. We have a modern worship experience with live music, children's ministry and relevant teaching and ministry from our Pastors. We invite you to come visit us and learn more on our website.">
@@ -28,7 +28,7 @@
                 <div class="swiper-wrapper">
 
                     <!-- start slider item -->
-                    <div id="mens-breakfast" class="swiper-slide cover-background" style="background-image:url('./images/events/mens-breakfast-lg.png');">
+                    <!-- <div id="mens-breakfast" class="swiper-slide cover-background" style="background-image:url('./images/events/mens-breakfast-lg.png');">
                         <div class="opacity-very-light bg-black"></div>
                         <div class="container position-relative h-100">
                             <div class="row h-100">
@@ -39,7 +39,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- end slider item -->
 
                     <!-- start slider item -->
