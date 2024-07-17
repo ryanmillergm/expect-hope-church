@@ -28,7 +28,7 @@
                 <div class="swiper-wrapper">
 
                         <!-- start slider item -->
-                        <div id="baptism" class="swiper-slide cover-background" style="background-image:url('./images/events/water-baptisms-07-2024-lg.jpg');">
+                        <!-- <div id="baptism" class="swiper-slide cover-background" style="background-image:url('./images/events/water-baptisms-07-2024-lg.jpg');">
                             <div class="opacity-very-light bg-black"></div>
                             <div class="container position-relative h-100">
                                 <div class="row h-100">
@@ -39,7 +39,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- end slider item -->
 
                     <!-- start slider item -->
