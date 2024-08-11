@@ -143,6 +143,16 @@
     border-radius: 5px;
   }
 
+  .btn-marriage-ministry-placement > a {
+    background: rgba(255, 255, 255, 0.265) !important;
+    color: #fff !important;
+  }
+
+  .btn-marriage-ministry-placement > a:hover {
+    background: rgb(255, 255, 255) !important;
+    color: #000000 !important;
+  }
+
   .btn-baptism-placement > a {
     background: rgba(255, 255, 255, 0.265) !important;
     color: #fff !important;
@@ -168,7 +178,7 @@
         background-image:url('../images/events/easter-mobile.png') !important;
     }
     #marriage-ministry {
-        background-image:url('../images/events/murder-mystery-mobile.png') !important;
+        background-image:url('../images/events/marriage-ministry-book-study-2024-mobile.png') !important;
     }
     #guest-speaker {
         background-image:url('../images/events/steve-valdez-promo-mobile.png') !important;
@@ -231,7 +241,7 @@
         background-image:url('../images/events/easter-md.png') !important;
     }
     #marriage-ministry {
-        background-image:url('../images/events/murder-mystery-md.png') !important;
+        background-image:url('../images/events/marriage-ministry-book-study-2024-md.png') !important;
     }
     #guest-speaker {
         background-image:url('../images/events/steve-valdez-promo-md.png') !important;
@@ -318,7 +328,7 @@
         background-image:url('../images/events/easter-lg.png') !important;
     }
     #marriage-ministry {
-        background-image:url('../images/events/murder-mystery-lg.png') !important;
+        background-image:url('../images/events/marriage-ministry-book-study-2024-lg.png') !important;
     }
     #guest-speaker {
         background-image:url('../images/events/mens-breakfast-2024-lg.png') !important;
@@ -355,12 +365,16 @@
     }
 
     .btn-marriage-ministry-placement {
-        padding-top: 650px;
+        padding-top: 500px;
     }
 
+    .btn-marriage-ministry-placement > a {
+        background: rgba(255, 255, 255, 0.405) !important;
+    }
+}
     .btn-baptism-placement > a {
         background: rgba(255, 255, 255, 0.405) !important;
-      }
+    }
 }
 
 @media (min-width:1999px){
